@@ -1,0 +1,562 @@
+# Motivation
+
+- Generalized trust is present in a wide variety of studies
+
+- The interest is fostered by: 
+
+correlation with development, equity and/or efficiency
+
+- Trust has been analyzed from: 
+
+economics, sociology and political science
+
+- Nevertheless, its conceptual definition and causality channels offer wide spaces for debate and research
+
+----
+
+
+-   Generalized trust is usually surveyed through a dilemma regarding
+    general social interactions.
+
+-   The World Values Survey (WVS) is the most frequent source (since
+    1981, more than 100 countries, 90 percent of world population)
+
+-   WVS Generalized trust question\
+
+     "Generally speaking, would you say that
+
+    1.  most people can be trusted
+
+    2.  you can never be too careful when dealing with others"
+
+
+----
+
+![mapa](map2010-2014.png)
+
+----
+
+```{r, message=F, warning =F,echo=FALSE}
+library(webshot)
+library(plotly) 
+library(dplyr) # Not needed, but nice with plotly 
+```
+```{r fig1, echo=FALSE, fig.cap="WV5 Life Satisfaction and Trust", message=FALSE, warning=FALSE}
+load("~/Google Drive/Datos/WVS/Treated Data/WV5byCountryISO3c.RData")
+load("~/Google Drive/Datos/WVS/Treated Data/WV6byCountryISO3c.RData")
+plot_ly(dataWV5, x = ~Trust.mean, y = ~Satisfaction.mean,color=~countryISO3c) %>%
+    layout(yaxis = list(title='Life Satisfaction', zeroline = FALSE),
+           xaxis = list(title='Trust', zeroline = FALSE))
+```
+
+[Interactive Figure: sebacea.shinyapps.io/CommonBeliefs](https://sebacea.shinyapps.io/CommonBeliefs/)
+
+----
+
+```{r fig2, echo=FALSE, fig.cap="WV5 Life Satisfaction and Fairness", message=FALSE, warning=FALSE}
+plot_ly(dataWV5, x = ~Fairness.mean,y = ~Satisfaction.mean,color=~countryISO3c) %>%
+    layout(yaxis = list(title='Life Satisfaction', zeroline = FALSE),
+           xaxis = list(title='Fairness', zeroline = FALSE)) 
+  
+```
+
+---
+
+Example: WVS 2010-2014
+
+  ----------- ------------ -----------
+   China 60%   U.S.A. 35%   Chile 12%
+  ----------- ------------ -----------
+
+-   Are people in China answering about the same set of particular
+    interactions than in Chile?
+
+    Available interactions might be different among societies.
+
+-   Comparability issue
+
+-   Is there more welfare in China than in U.S.A. or Chile?
+
+----
+
+Our objective: to approach beliefs in Other People Behavior (OPB) through micro foundations and to
+
+-   understand how individuals decide whether to behave high or low output in anonymous interactions
+
+-   define OPB belief measure
+
+-   study the welfare impact of such measures
+
+-   asses comparability
+
+----
+
+In this section we study, in competitive equilibrium,
+
+-   the relationship of belief measures with efficiency and
+        welfare in the context of anonymous interactions and preferences
+        with costly productive behavior
+
+-   the possibility that higher OPB beliefs measures need not imply
+        higher welfare.
+
+----
+
+
+
+
+-   The economy is endowed only with the first commodity:
+
+    the agent's endowment is $e=(1,0)$.
+
+-   The second commodity is produced through a 2-person
+    trust-interaction using the first commodity as input
+
+-   Individuals decide whether to participate in this interaction and,
+    if participating, there are two available actions: high (H) or
+    low (B) output
+
+-   Set of available actions is
+    $$\mathbb{F}:=\{(r,a)\in\{r_1,r_2\}\times\{H,L\}\}\cup\{0\},$$
+
+    where $\{r_1,r_2\}$ stands for the symmetric roles and $0$ for not
+    participating
+
+----
+
+-   In order to participate, each agent must invest her endowment of the
+    first commodity to receive commodity 2
+
+-   Since the roles in the interaction are symmetric, the associated
+    real-payoff of the interaction is given by half of the output
+    generated
+
+-   Given an anonymous matching of two individuals willing to
+    participate in the trust-interaction, there are 3 possible
+    consequences:
+
++---+------------------------+------------------------+
+|   |          H             |          L             |
++:=:+:======================:+:======================:+
+| H | $\left(C_g,C_g\right)$ |  $\left(C_m,C_m\right)$|
++---+------------------------+------------------------+
+| L | $\left(C_m,C_m\right)$ |  $\left(C_b,C_b\right)$|
++---+------------------------+------------------------+
+  
+: Real output of the interaction (in units of good 2).[]{label="table:payoffs"}
+[]{label="table:real-actions"}
+
+----
+
+-   The set of consequences of the interaction is $\Omega=\{g,m,b\}$
+
+-   For the sake of notation, the per-capita technology of the
+    interaction is denoted by $y(\omega)=(-1, C_\omega)$ for each
+    $\omega\in\Omega$.
+
+-   Accordingly, $C_g\geq C_m\geq C_b$.
+
+----
+
+-   There are conditional probabilities given by a function
+    $\pi:\{H,L\}\times\{H,L\}\rightarrow\mathcal{P}(\Omega)$, where
+    $\mathcal{P}(\Omega)$ is the space of probability measures on
+    $\Omega$
+
+-   A consumption decision is given by
+    $$\tilde{x}:\Omega\rightarrow\mathbb{R}_+^2,$$ where
+    $\tilde{x}(\omega)=(x_1,x_2)\in\mathbb{R}_+^2$
+
+-   The choice set is defined by
+    $$X:=\{(\tilde{x},\phi)\in\mathbb{R}^{2|\Omega|}\times\mathbb{F}: \phi=0\quad\text{requires}\quad \tilde{x}(g)=\tilde{x}(m)=\tilde{x}(b)\},$$
+    since not participating is always an option, feasible consumption is
+    independent of possible consequences when not interacting
+    
+----
+
+-   We normalize commodity prices with respect to good one so that the
+    price of good two is denoted by $q\in\mathbb{R}_{++}$
+
+-   $(\tilde{x},\phi)\in X$ is budget feasible at consumption prices
+    $p=(1,q)$ if for each $\omega\in\Omega$ we have
+    $$p\cdot\tilde{x}(\omega)\leq p\cdot e+p\cdot y(\omega){\bf 1}_{\phi\neq0},$$
+
+    -   where ${\bf 1}_{\phi\neq0}$ is the indicator function of
+        condition $\phi\neq0$.
+
+    \medskip
+-   At given prices $p$, the set of budget-feasible vectors is denoted
+    by $B(p)$
+
+----
+
+-   There is a utility function
+    $u:\mathbb{R}^2_+\times \mathbb{F}\rightarrow\mathbb{R}$
+
+-   Let $\beta$ denote a probability measure on
+    $A:=\{H,L\}\times\{H,L\}$ that represents agents' beliefs
+
+-   Agents maximize the expected utility of their plan
+    $$(\tilde{x},\phi)\in B(p)$$
+
+-   Expected utility is given by
+    $$\mathbb{E}[u(\tilde{x},\phi|\beta)]=\sum_{{\bf a}\in A} u(\tilde{x}(\omega),\phi)\pi(\omega|\phi,{\bf a})\beta({\bf a}),$$
+
+
+    $$\text{where}\quad\pi(\omega|\phi,{\bf a})=\begin{cases}
+    \pi(\omega|(\phi_a,{\bf a}_{-\phi_r}))&\text{if}\quad \phi\neq0\\
+    \pi(\omega|{\bf a})&\text{if}\quad \phi=0
+    \end{cases}.$$
+
+    
+----
+
+A probability measure $\mu$ on $\mathbb{R}^{2|\Omega|}\times\mathbb{F}$
+is consistent if
+$$0<\mu(\{(\tilde{x},\phi):\phi_r=r_1\})=\mu(\{(\tilde{x},\phi):\phi_r=r_2\})<1.$$
+
+Note that a consistent probability satisfies
+$\mu(\{(\tilde{x},\phi): \phi\neq0\})\neq0$.
+
+Let $\mu$ be a consistent probability measure on
+$\mathbb{R}^{2|\Omega|}\times\mathbb{F}$, define the probability that
+action $(a_1,a_2)$ is taken in the interaction conditional on the
+consistent probability by
+
+$$\gamma((a_1,a_2)|\mu)=\frac{\mu(\{(\tilde{x},\phi): \phi=(r_1,a_1)\})+\mu(\{(\tilde{x},\phi): \phi=(r_2,a_2)}{\mu(\{(\tilde{x},\phi): \phi\neq0\})}.$$
+
+----
+
+A consistent probability measure $\mu$ on
+$\mathbb{R}^{2|\Omega|}\times\mathbb{F}$ is a feasible configuration for
+the economy given:
+
+-   Feasibility: $\mu(\{(\tilde{x},\phi): (\tilde{x},\phi)\notin X\})=0$
+    and
+
+-   Market Clearing: $X(\mu)=Y(\mu)+(1,0)$.
+
+A common beliefs equilibrium of the economy is given by a tuple
+
+  $(\overline{q},\beta,\mu)\in\mathbb{R}^2_{+}\times\mathcal{P}(A)\times\mathcal{P}(\mathbb{R}^{2|\Omega|}\times\mathbb{F})$
+  such that:
+
+1.  $\mu$ is a feasible configuration
+
+2.  Individual budget feasibility:
+    $\mu(\{(\tilde{x},\phi): (\tilde{x},\phi)\notin B(p)\})=0$
+
+3.  Optimality:
+    $\mu(\{(\tilde{x},\phi): \exists(\tilde{x}',\phi')\in X\cap B(p), \mathbb{E}[u(\tilde{x}',\phi')|\beta]>\mathbb{E}[u(\tilde{x},\phi)|\beta]\})=0$
+
+4.  Correct beliefs: $\beta=\gamma(\cdot|\mu)$.
+
+----
+
+# Parameterization
+
+Consider a family of economies parameterized by the medium output
+$C_m\in[1,2]$, assuming $C_g=2$, $C_b=1$.
+
+Utility function
+$u:\mathbb{R}^2_{+}\times\mathbb{F}\rightarrow\mathbb{R}$ exhibits
+high-action cost if $u(\cdot,H)\leq u(\cdot,L)$.
+
+\small
+$$\begin{aligned}
+u(x_1,x_2,\phi,C_m)&=&\left\{\begin{array}{ll}
+\sqrt{x_1x_2}&\text{if}\quad \text{otherwise}\\
+T\left(\sqrt{x_1x_2}\right)&\text{if}\quad \phi_a=H,
+\end{array}
+\right.\end{aligned}$$
+
+where $T(t,C_m)=\left\{\begin{array}{ll}
+\frac{C_m}{2}\cdot t&\text{if}\quad t\in\left[0,\frac{1}{\sqrt{C_m}}\right]\\
+\frac{\sqrt{C_m}}{2}+\frac{1}{15}\left(t-\frac{1}{\sqrt{C_m}}\right)&\text{if}\quad t\in\left[\frac{1}{\sqrt{C_m}},+\infty\right[.
+\end{array}
+\right.$
+
+----
+
+## Proposition 1
+
+There are two equilibria for each economy in $\mathcal{E}(C_m)$.
+
+-   In one equilibrium (“high-output”) all agents participating in the interaction choose H and they are in proportion $\frac{C_m}{2+C_m}$.
+
+-   In the other equilibrium (“low-output”) all agents in the interactions choose L, and participation is in proportion $0.5$.
+    
+----
+
+```{r echo=FALSE,engine='tikz', fig.cap="Relation between proportion of agents participating in the interaction and parameter $C_{m}$"}
+\begin{tikzpicture}[domain=1:2, scale=6]
+%\draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,3.9);
+\draw[very thin,color=gray] (1,0.5) -- (2,0.5);
+\draw[dashed] (0.8,0.5) -- (1,0.5);
+\draw[color=black] (0.67,0.46) node [anchor=south west] { $0.5$};
+\draw[color=red] (1.5,0.5) node [anchor=south west] { $\overline{\mu}_{L}(C_{m})$};
+\draw[color=black] (0.69,0.27) node [anchor=south west] { $\frac{1}{3}$};
+\draw[->] (0.7,0.2) -- (2.3,0.2) node[below] {$C_m$};
+\draw[dashed] (1,0.5) -- (1,0.2);
+\draw[color=black] (0.87,0.1) node [anchor=south west] { $C_b=1$};
+\draw[dashed] (2,0.5) -- (2,0.2);
+\draw[color=black] (1.87,0.1) node [anchor=south west] { $C_g=2$};
+%\draw[->] (0,-0.2) -- (0,2) node[above] {$f(x)$};
+\draw[->] (0.8,0.1) -- (0.8,0.6) node[left] {$\mu(\{(\tilde{x},\phi):\phi\neq0\})$} ;
+%\draw[color=red] plot (\x,\x) node[right] {$f(x) =x$};
+% \x r means to convert ?\x? from degrees to _r_adians:
+%\draw[color=blue] plot (\x,{sin(\x r)}) node[right] {$f(x) = \sin x$};
+\draw[color=blue] plot[mark=triangle*, mark size=0.2pt] (\x,{\x/(2+\x)}) node[right] {$\overline{\mu}_{H}(C_{m})=\frac{C_{m}}{2+C_{m}}$};
+\draw[color=red] plot[mark=square*, mark size=0.2pt] (\x,{0.5}) node[right] {};
+%\draw[color=orange] plot (\x,{0.05*exp(\x)}) node[right] {$f(x) = \frac{1}{20} \mathrm e^x$};
+\filldraw[black] (1,0.5) circle (0.2pt);
+\filldraw[black] (2,0.5) circle (0.2pt);
+\filldraw[black] (1,0.33) circle (0.2pt);
+\draw[dashed] (0.8,0.33) -- (1,0.33);
+\end{tikzpicture}
+```
+
+---
+
+: Welfare dependence on action and medium output for row player
+[]{label="table:welfare-actions1"}
+
++------+-----------------------------+------------------------+---------------------------------+
+|      | H                           |                        |  L                              |
++:====:+:===========================:+:======================:+:===============================:+
+| H    |$\frac{\sqrt{C_{m}}}{2}$     |                        |$\frac{ C_{m}^{\frac{3}{2}}}{4}$ |
++------+-----------------------------+------------------------+---------------------------------+
+| L    |$\frac{\sqrt{C_{m}}}{ 2}$    |                        | $\frac{1}{2\sqrt{C_{m}}}$       |
++------+-----------------------------+------------------------+---------------------------------+
+| 0    |                             |$\frac{\sqrt{C_{m}}}{2}$|                                 |
++------+-----------------------------+------------------------+---------------------------------+
+
++------+------------------------------------------------------------------+-------------------------+---------------------------------------------------+
+|      | H                                                                |                         |  L                                                |
++:====:+:================================================================:+:=======================:+:=================================================:+
+| H    |$\frac{\sqrt{C_{m}}}{2}+\frac{1}{15\sqrt{C_{m}}}(\sqrt{C_{m}}-1)$ |                         | $\quad\quad\frac{C_{m}^{2}}{4}^{\star}\quad\quad$ |
++------+------------------------------------------------------------------+-------------------------+---------------------------------------------------+
+| L    |$\frac{C_{m}}{ 2}$                                                |                         | $\frac{1}{2}$                                     |
++------+------------------------------------------------------------------+-------------------------+---------------------------------------------------+
+| 0    |                                                                  |    $\frac{1}{2}$        |                                                   |
++------+------------------------------------------------------------------+-------------------------+---------------------------------------------------+
+
+\scriptsize $^\star$: Welfare level $C_m^{2}/4$ represents $H(C_{m}/2)$ when $C_{m}\leq1.59$, otherwise $H(C_{m}/2)=\sqrt{C_{m}}/2+(1/15)(C_{m}/2-1/\sqrt{C_{m}})$}
+
+----
+
+## Corollary 
+
+For economies $\mathcal{E}(C_m)$ with $C_m\in(1,2]$ and beliefs $\beta((H,H))=1$, a greater $C_m$ induces more welfare and a higher
+proportion of people interacting. 
+
+```{r echo=FALSE,engine='tikz', fig.cap="Output's order"}
+\begin{tikzpicture}[line cap=round,line join=round,x=1.0cm,y=1.0cm]
+
+%Axis
+\draw[->,color=black] (-5,0) -- (5,0); % X axis
+
+%Label of C axis
+\draw[color=black] (5.1,0) node [anchor=south west] { $C_\omega$}; % X axis
+
+%Point C_g
+\fill (4,0) circle [radius=2pt];
+%Label C_g
+\draw (4,-.7) node [anchor=south west] { $C_g$};
+
+\fill (0,0) circle [radius=2pt];
+%Label C_g
+\draw (0,-.7) node [anchor=south west] { $C_m$};
+
+\fill (-4,0) circle [radius=2pt];
+%Label C_g
+\draw (-4,-.7) node [anchor=south west] { $C_b$};
+
+% Line of trust incentive
+\draw[|-|,color=blue,line width=0.3mm] (-4,0.5) -- (0,0.5);
+%Label of trust incentive
+\draw[blue] (-3.3,0.7) node [anchor=south west] { $\text{Trust incentive}$};
+% Line of betrayal risk
+\draw[|-|,color=red,line width=0.3mm] (0,0.5) -- (4,0.5);
+%Label of betrayal risk
+\draw[red] (0.7,0.7) node [anchor=south west] { $\text{Betrayal risk}$};
+\end{tikzpicture}
+```
+
+
+---- 
+
+```{r echo=FALSE,engine='tikz'}
+
+\begin{tikzpicture}[domain=1:2, scale=5]
+%\draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,3.9);
+\draw[very thin,color=gray] (1,0.5) -- (2,0.5);
+\draw[dashed] (0.8,0.5) -- (1,0.5);
+\draw[color=black] (0.67,0.46) node [anchor=south west] { $0.5$};
+%\draw[color=black] (2,0.46) node [anchor=south west] { $\quad\overline{u}_{-T}(C_{m})$};
+\draw[->] (0.7,0.3) -- (2.3,0.3) node[below] {$C_m$};
+\draw[dashed] (1,0.5) -- (1,0.3);
+\draw[color=black] (0.87,0.2) node [anchor=south west] { $C_b=1$};
+\draw[dashed] (2,0.707) -- (2,0.3);
+\draw[color=black] (1.87,0.2) node [anchor=south west] { $C_g=2$};
+\draw[dashed] (0.8,0.707) -- (2,0.707);
+\draw[color=black] (0.67,0.65) node [anchor=south west] { $\frac{1}{\sqrt{2}}$};
+%\draw[->] (0,-0.2) -- (0,2) node[above] {$f(x)$};
+\draw[->] (0.8,0.2) -- (0.8,1) node[left] {Welfare} ;
+%\draw[color=red] plot (\x,\x) node[right] {$f(x) =x$};
+% \x r means to convert ?\x? from degrees to _r_adians:
+%\draw[color=blue] plot (\x,{sin(\x r)}) node[right] {$f(x) = \sin x$};
+\draw[color=blue] plot[mark=triangle*, mark size=0.2pt] (\x,{sqrt(\x)/2}) node[right] {$\quad\overline{u}_{H}(C_{m})=T\left(\frac{1}{\sqrt{C_m}}\right)$};
+\draw[color=red] plot[mark=square*, mark size=0.2pt] (\x,{0.5}) node[right] {$\quad\overline{u}_{L}(C_{m})$};
+%\draw[color=orange] plot (\x,{0.05*exp(\x)}) node[right] {$f(x) = \frac{1}{20} \mathrm e^x$};
+\filldraw[black] (1,0.5) circle (0.2pt);
+\filldraw[black] (2,0.5) circle (0.2pt);
+\filldraw[black] (2,0.707) circle (0.2pt);
+\end{tikzpicture}
+```
+
+## Remark
+
+For economies $\mathcal{E}(C_m)$ with $C_m\in(1,2]$, equilibria are
+Pareto rankeable and, in particular, the equilibrium with beliefs
+$\beta((H,H))=1$ is a strict Pareto improvement with respect to the
+equilibrium with $\beta((L,L))=1$.
+
+----
+
+## Mechanism
+
+```{r echo=FALSE,engine='tikz', fig.cap="Relation between equilibrium price and OPB-beliefs in high-output equilibrium"}
+   \begin{tikzpicture}[domain=0.33:0.5, scale=6]
+%\draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,3.9);
+%\draw[dashed] (0.33,0.5) -- (0.5,0.5);
+%\draw[dashed] (0.8,0.5) -- (1,0.5);
+\draw[color=black] (-0.3,0.445) node [anchor=south west] { $\frac{1}{2}$};
+\draw[dashed] (-0.2,0.5) -- (0.5,0.5);
+\draw[color=black] (-0.3,0.97) node [anchor=south west] { $1$};
+\draw[dashed] (-0.2,1.015) -- (0.33,1.015);
+\draw[->] (-0.3,0.4) -- (0.7,0.4) node[right] {OPB-belief};
+\draw[->] (-0.2,0.3) -- (-0.2,1.1) node[left] {$\overline{q}$};
+\draw[dashed] (0.33,1) -- (0.33,0.4);
+\draw[color=black] (0.28,0.25) node [anchor=south west] { $\frac{1}{3}$};
+\draw[dashed] (0.5,0.5) -- (0.5,0.4);
+\draw[dashed] (0,1.015) -- (0,0.4);
+\draw[color=black] (0.45,0.25) node [anchor=south west] { $\frac{1}{2}$};
+\draw[color=black] (-0.04,0.27) node [anchor=south west] { $0$};
+%\draw[->] (0,-0.2) -- (0,2) node[above] {$f(x)$};
+%\draw[color=red] plot (\x,\x) node[right] {$f(x) =x$};
+% \x r means to convert ?\x? from degrees to _r_adians:
+%\draw[color=blue] plot (\x,{sin(\x r)}) node[right] {$f(x) = \sin x$};
+\draw[color=blue] plot[mark=triangle*, mark size=0.2pt] (\x,{0.5*((1/\x)-1)}) node[right] {High-output equilibrium};
+%\draw[color=red] plot[mark=square*, mark size=0.2pt] (\x,{0.5}) node[right] {};
+%\draw[color=orange] plot (\x,{0.05*exp(\x)}) node[right] {$f(x) = \frac{1}{20} \mathrm e^x$};
+%\filldraw[black] (0.33,0.5) circle (0.2pt);
+\filldraw[black] (0.5,0.5) circle (0.2pt);
+\filldraw[black] (0.33,1.015) circle (0.2pt);
+\filldraw[red] (0,1.015) circle (0.2pt);
+\draw[color=red] (0.15,1.1) node { Low-output equilibrium};
+\end{tikzpicture}
+```
+
+---
+
+## Definition
+
+For a given equilibrium $(\overline{q},\overline{\beta},\overline{\mu})$, a measure of  the belief about Other People's Behavior (OPB-belief) is provided by proportion "$\overline{\mu}(\{(\tilde{x},\phi):\phi_{a}=H\}).$$
+
+## Proposition
+
+If OPB-belief increases, then welfare does not necessarily increase.
+
+----
+
+```{r echo=FALSE,engine='tikz', fig.cap="Relation between welfare and OPB-belief"}
+    \begin{tikzpicture}[domain=.33:.5, scale=12]
+\draw[dashed] (-0.05,0.5) -- (0.33,0.5);
+\draw[color=black] (-0.1,0.47) node [anchor=south west] { $\frac{1}{2}$};
+\draw[->] (-0.06,0.4) -- (0.6,0.4);
+\draw[color=black] (0.7,0.38) node {OPB-belief};
+\draw[dashed] (0.33,0.5) -- (0.33,0.4);
+\draw[color=black] (0.31,0.33) node [anchor=south west] { $\frac{1}{3}$};
+\draw[dashed] (0,0.5) -- (0,0.4);
+\draw[color=black] (-0.02,0.35) node [anchor=south west] { $0$};
+\draw[dashed] (0.5,0.707) -- (0.5,0.4);
+\draw[color=black] (0.48,0.33) node [anchor=south west] { $\frac{1}{2}$};
+\draw[dashed] (-0.05,0.707) -- (0.5,0.707);
+\draw[color=black] (-0.11,0.67) node [anchor=south west] { $\frac{1}{\sqrt{2}}$};
+%\draw[->] (0,-0.2) -- (0,2) node[above] {$f(x)$};
+\draw[->] (-0.05,0.38) -- (-0.05,0.8) node[left] {Welfare} ;
+%\draw[color=red] plot (\x,\x) node[right] {$f(x) =x$};
+% \x r means to convert ?\x? from degrees to _r_adians:
+%\draw[color=blue] plot (\x,{sin(\x r)}) node[right] {$f(x) = \sin x$};
+\draw[color=blue] plot[mark=triangle*, mark size=0.2pt] (\x,{sqrt((\x)/(2-2*\x))}) node[right] {$\quad\overline{u}_{H}(\mu(\{(\tilde{x},\phi):\phi_{a}=H\}))$};
+%\draw[color=red] plot[mark=square*, mark size=0.2pt] (\x,{0.5}) node[right] {$\quad\overline{u}_{L}(C_{m})$};
+%\draw[color=orange] plot (\x,{0.05*exp(\x)}) node[right] {$f(x) = \frac{1}{20} \mathrm e^x$};
+\filldraw[blue] (0.33,0.5) circle (0.2pt);
+\filldraw[blue] (0.5,0.707) circle (0.2pt);
+\filldraw[red] (0,0.5) circle (0.2pt);
+\draw[color=red] (0.12,0.54) node { $\overline{u}_{L}(\mu(\{(\tilde{x},\phi):\phi_{a}=H\}))$};
+\end{tikzpicture}
+```
+
+---
+
+# Robustness
+
+```{r fig3, echo=FALSE, fig.cap="WV5-6 Life Satisfaction and Trust", message=FALSE, warning=FALSE}
+dataWV5$wave<-5
+dataWV6$wave<-6
+data<-rbind(dataWV5,dataWV6)
+plot_ly(data = data, x = ~Trust.mean, y = ~Satisfaction.mean, color = ~countryISO3c, symbol=~wave, symbols = c('circle','x')) %>%
+    layout(yaxis = list(title='Life Satisfaction', zeroline = FALSE),
+           xaxis = list(title='Trust', zeroline = FALSE))
+```
+---
+
+- Welfare measure: Life Satisfaction then countries where the measure is not statistically different between both waves 
+
+    AUS, CYP, GHA, JOR, POL, URY, USA. 
+
+    - Beliefs: no Trust variation URY 
+
+    - Beliefs: no Fairness variation AUS, JOR, URY 
+
+
+- Welfare invariance with variance in Trust (85.71%) or Fairness (57.14%)
+
+---
+
+```{r fig4, echo=FALSE, fig.cap="WV5-6 Life Satisfaction and Trust (welfare invariants)", message=FALSE, warning=FALSE}
+WV5_6<-data.frame(countryISO3c=intersect(levels(dataWV5$countryISO3c),levels(dataWV6$countryISO3c)))
+# Rellenamos las cantidades
+# Ojo que se esta?? dejando afuera el nivel de attrition por variabilidad de NAs
+WV5_6$DeltaSatisfaction<-0
+WV5_6$DeltaTrust<-0
+WV5_6$DeltaFairness<-0
+for(country in  levels(WV5_6$countryISO3c)){
+  #Variación satisfacción de vida
+  if(dataWV5$Satisfaction.lower[which(dataWV5$countryISO3c==country)]<=dataWV6$Satisfaction.lower[which(dataWV5$countryISO3c==country)] & dataWV5$Satisfaction.upper[which(dataWV5$countryISO3c==country)]>=dataWV6$Satisfaction.lower[which(dataWV5$countryISO3c==country)]) WV5_6$DeltaSatisfaction[WV5_6$countryISO3c==country]=1
+  if(dataWV6$Satisfaction.lower[which(dataWV5$countryISO3c==country)]<=dataWV5$Satisfaction.lower[which(dataWV5$countryISO3c==country)] & dataWV6$Satisfaction.upper[which(dataWV5$countryISO3c==country)]>=dataWV5$Satisfaction.lower[which(dataWV5$countryISO3c==country)]) WV5_6$DeltaSatisfaction[WV5_6$countryISO3c==country]=1
+  #Variación confianza
+  if(dataWV5$Trust.lower[which(dataWV5$countryISO3c==country)]<=dataWV6$Trust.lower[which(dataWV5$countryISO3c==country)] & dataWV5$Trust.upper[which(dataWV5$countryISO3c==country)]>=dataWV6$Trust.lower[which(dataWV5$countryISO3c==country)]) WV5_6$DeltaTrust[WV5_6$countryISO3c==country]=1
+  if(dataWV6$Trust.lower[which(dataWV5$countryISO3c==country)]<=dataWV5$Trust.lower[which(dataWV5$countryISO3c==country)] & dataWV6$Trust.upper[which(dataWV5$countryISO3c==country)]>=dataWV5$Trust.lower[which(dataWV5$countryISO3c==country)]) WV5_6$DeltaTrust[WV5_6$countryISO3c==country]=1
+  #Variación Fairness
+  if(dataWV5$Fairness.lower[which(dataWV5$countryISO3c==country)]<=dataWV6$Fairness.lower[which(dataWV5$countryISO3c==country)] & dataWV5$Fairness.upper[which(dataWV5$countryISO3c==country)]>=dataWV6$Fairness.lower[which(dataWV5$countryISO3c==country)]) WV5_6$DeltaFairness[WV5_6$countryISO3c==country]=1
+  if(dataWV6$Fairness.lower[which(dataWV5$countryISO3c==country)]<=dataWV5$Fairness.lower[which(dataWV5$countryISO3c==country)] & dataWV6$Fairness.upper[which(dataWV5$countryISO3c==country)]>=dataWV5$Fairness.lower[which(dataWV5$countryISO3c==country)]) WV5_6$DeltaFairness[WV5_6$countryISO3c==country]=1
+}
+invariantCountries<-as.character(WV5_6$countryISO3c[which(WV5_6$DeltaSatisfaction==1)])
+
+datainter<-rbind(dataWV5[dataWV5$countryISO3c %in% invariantCountries,],dataWV6[dataWV6$countryISO3c %in% invariantCountries,])
+plot_ly(data = datainter, x = ~Trust.mean, y = ~Satisfaction.mean, color = ~countryISO3c, symbol=~wave, symbols = c('circle','x')) %>%
+    layout(yaxis = list(title='Life Satisfaction', zeroline = FALSE),
+           xaxis = list(title='Trust', zeroline = FALSE))
+```
+
+---
+
+# Final Remarks
+
+- Results do not depend on parametrization
+- Robustness check
+- Preferences generalization
+- To study the dynamics of the model

@@ -1,0 +1,42 @@
+---
+title: "Análisis Eco. 2: 3 y 4"
+always_allow_html: yes
+author:
+- Fabiola Cabrera$^1$
+- Sebastián Cea$^2$
+date: "September 2018"
+output:
+  beamer_presentation:
+    theme: classic
+institute:
+- Biblio Congreso$^1$
+- EII PUCV$^2$
+subtitle: Sist. Económicos y Rol del Estado
+header-includes:
+- \usepackage{pgf,tikz}
+- \usetikzlibrary{patterns}
+- \usetikzlibrary{arrows}
+- \usepackage{pgfplots}
+---
+
+
+# Pendientes 
+
+-   We follow Zame (Ecma 2007), a general equilibrium model of firm
+    formation
+
+-   We use a particular case of this configuration with endogenous
+    anonymous interactions that consider explicitly incentives to trust
+    or betray
+
+    -   there are two perfectly divisible commodities traded on
+        competitive markets
+
+    -   many identical agents (in terms of preferences and endowments of
+        the two commodities) and
+
+    -   a representative two-person generalized trust-interaction among
+        individuals.
+
+----
+

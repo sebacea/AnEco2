@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+# ignore all files in any directory named build
+Controles/
+cuadernos/
+Diapositivas/
+libros/
+Planificación/
+Talleres/
+Programa/
