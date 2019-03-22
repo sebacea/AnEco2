@@ -4,7 +4,7 @@ always_allow_html: yes
 author:
 - Fabiola Cabrera$^1$
 - Sebastián Cea$^2$
-date: "September 2018"
+date: "Marzo 2019"
 output:
   beamer_presentation:
     theme: classic
@@ -56,44 +56,14 @@ header-includes:
 
 - Métricas o factores para medir el tamaño del estado 
 
-    - (Gasto Público/PIB, trabajos sector público, leyes, etc.) 
+    - (Gasto Público/PIB, empleo sector público, leyes, etc.) 
     - comparando países (China, EEUU)
     
-- Variables macroeconómicas. (Crecimiento, Inflación, Desempleo).
-    - [PIB Google](https://www.google.cl/publicdata/explore?ds=d5bncppjof8f9_&met_y=ny_gdp_pcap_cd&hl=es&dl=es#!ctype=l&strail=false&bcs=d&nselm=h&met_y=ny_gnp_mktp_pp_cd&scale_y=lin&ind_y=false&rdim=region&idim=country:CHL&ifdim=region&hl=es&dl=es&ind=false), [PIB WB](https://datos.bancomundial.org/indicador/NY.GDP.PCAP.CD?locations=CL)    
+- Variables macroeconómicas. 
+    - Crecimiento: [PIB Google](https://www.google.cl/publicdata/explore?ds=d5bncppjof8f9_&met_y=ny_gdp_pcap_cd&hl=es&dl=es#!ctype=l&strail=false&bcs=d&nselm=h&met_y=ny_gnp_mktp_pp_cd&scale_y=lin&ind_y=false&rdim=region&idim=country:CHL&ifdim=region&hl=es&dl=es&ind=false), [PIB WB](https://datos.bancomundial.org/indicador/NY.GDP.PCAP.CD?locations=CL)    
+    - Inflación
+    - Desempleo
 
-- Sector Público y [Cuenta corriente](https://www.bcentral.cl/balanza-de-pagos-y-posicion-de-inversion-internacional)
-
-----
-
-
-# Ciclo Económico N1.15
-
-
-- Crecimto>Produc>Ingresos>empleo>demanda>costos>$\pi$
-
-- Pol. Fiscal 
-
-    - Expansiva: + gastos ó - imptos (pro crecimiento)
-    - Contractiva/Restrictiva: - gasto ó + imptos 
-    - Efectos (pro/contra)-cíclico
-    - Crisis N1.15
-      - Desaceleración
-      - Recesión
-      - Manejo expectativas
-      - Diferencias entre caída del PIB y desaceleración
-    - Regla fiscal de superávit estructural N1.17
-    - Sistema tributario (esta complejidad de muchos impuestos)
-        - [Engel et ali 1999](https://www.sciencedirect.com/science/article/pii/S0304387899000097)
-        - [Fairfield and Jorrat 2016](https://doi.org/10.1111/roiw.12196)
-
-----
-
-- Pol. Monetaria
-
-    - Expansiva: $\nabla$i>inv>consumo>producción>empleo
-    - Restictiva: i>~(inv>consumo>producción>empleo)
-    - Pol. Cambiaria
 
 
 
@@ -102,16 +72,17 @@ header-includes:
 # Clase 4
 
 - Flujo circular de la renta simple (Producto=ingreso)
-- Sistema cerrado y privado: Producto, Factores Productivos, remuneraciones 
-- Desempeño macroeconómico
+- Sistema cerrado y privado: producto, factores productivos, remuneraciones 
 - Definiciones generales:
     - Variables macroeconómicas: Crecimiento, Inflación, Desempleo
-    - Sector Público y Cuenta corriente. 
+    - Sector Público y [Cuenta corriente](https://www.bcentral.cl/balanza-de-pagos-y-posicion-de-inversion-internacional)
+    - Desempeño macroeconómico
 
 ----
 
 - Ciclos económicos
-- Relación esperada entre variables en fases de crecimiento y desaceleración (aclaración de las diferencias entre caída del PIB y desaceleración)
+- Relación esperada entre variables en fases de crecimiento y desaceleración 
+    - diferencias entre caída del PIB y desaceleración
 - Introducción a medidas que toman las instituciones:
     - Políticas fiscales, monetarias y cambiarias
     - Restrictivas y Expansivas
@@ -126,17 +97,83 @@ header-includes:
 
 # Clase 5
 
-- Producción y conceptos relacionados.
-- Crecimiento y conceptos asociados.
+- Producción, Crecimiento y conceptos asociados.
 - Producción y Crecimiento $\neq$ Desarrollo (mediciones)
-- Desarrollo económico y social, inclusivo y sustentable
-- Coeficiente de Gini, desarrollo territorial medioambiente
-(comparación entre IDH e [indice de competitividad WEF](https://tcdata360.worldbank.org/indicators/gci?country=BRA&indicator=631&countries=CHL&viz=line_chart&years=2007,2017))
-- PIB y sus alcances al cálculo.
-- Impuestos (directo e indirecto).
+    - Desarrollo económico y social, inclusivo y sustentable
+    - Coeficiente de Gini, desarrollo territorial medioambiente
+    - [Índice Desarrollo Humano (IDH)](http://desarrollohumano.cl/idh/indice-desarrollo-humano/): PIB, esperanza de vida, escolaridad 
+    - [indice de competitividad WEF](https://tcdata360.worldbank.org/indicators/gci?country=BRA&indicator=631&countries=CHL&viz=line_chart&years=2007,2017)
+
+- PIB y sus alcances al cálculo (Clase 6)
+
+----
+
+
+# Ciclo Económico N1.15
+
+Crecimto>Produc>Ingresos>empleo>demanda>costos>$\pi$
+
+- Pol. Fiscal 
+
+    - Expansiva: + gastos ó - imptos (pro crecimiento)
+    - Contractiva/Restrictiva: - gasto ó + imptos 
+    - Efectos (pro/contra)-cíclico
+    - Crisis N1.16
+        - Desaceleración
+        - Recesión
+        - Manejo expectativas
+        - Diferencias entre caída del PIB y desaceleración
+    - [Regla fiscal de superávit estructural](http://www.hacienda.cl/preguntas-frecuentes/deberes-y-funciones/en-que-consiste-la-regla-del-balance.html) N1.17
+    - Sistema tributario (esta complejidad de muchos impuestos)
+        - [Engel et ali 1999](https://www.sciencedirect.com/science/article/pii/S0304387899000097)
+        - [Fairfield and Jorrat 2016](https://doi.org/10.1111/roiw.12196)
+
+----
+
+- Pol. Monetaria
+
+    - Expansiva: $\nabla$i>inv>consumo>producción>empleo
+    - Restictiva: i>~(inv>consumo>producción>empleo)
+    - Pol. Cambiaria
     
+# Clase 6 
+
+- Cálculo PIB
+- Inflación
+- Dornbush et ali - 2.5, 7.2, 7.6-7.8
+- Próximos: Dornbush et ali - 2.6, 7.1, 7.3-7.5
+
+# Alcances Cálculo PIB (Dornbush et ali - 2.4)
+
+>PIB: valor de bienes y servicios finales producidos en un momento dado (producción corriente)
+
+- Bienes Finales y Valor Agregado
+
+    - Problema de doble contabilidad
+    - Solución: valor agregado
+
+- Otros problemas de no contabilización
+    - Economía sumergida: comercio callejero
+    - Externalidades negativas como depreciación: medioambiente
+    - Mejoras de calidad
     
+----   
     
-    
+# Inflación e índice de precios
+
+Inflación: tasa cambio de  los precios
+
+- PIB e inflación
+    - PIB real: producción física
+    - PIB nominal: valor de la producción
+    - Deflactor PIB: cociente entre nominal y real
+
+- Índice precios consumidor: costo de comprar canasta fija de bienes [link INE](https://www.ine.cl/estad%C3%ADsticas/precios/ipc)
+    - Índice precios productor: costo de una canaste de bienes incluyendo materias primas
+- Medidas diferentes, comportamientos desiguales
+- Manejo expectativas, anticipación correcta y costos de menú
+    - Atraso o adelanto de pagos/compras
+    - Efecto redistributivo de la inflación
+    - Indización: contratos
     
     
