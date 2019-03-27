@@ -1,5 +1,5 @@
 ---
-title: "Análisis Eco. 2: 5 y 6"
+title: "Análisis Eco. 2: 7 y 8"
 always_allow_html: yes
 author:
 - Fabiola Cabrera$^1$
@@ -9,9 +9,9 @@ output:
   beamer_presentation:
     theme: classic
 institute:
-- Biblio Congreso$^1$
+- Biblioteca Congreso Nacional$^1$
 - EII PUCV$^2$
-subtitle: Sist. Económicos y Rol del Estado
+subtitle: Inflación y Desempleo
 header-includes:
 - \usepackage{pgf,tikz}
 - \usetikzlibrary{patterns}
@@ -176,4 +176,13 @@ Inflación: tasa cambio de  los precios
     - Efecto redistributivo de la inflación
     - Indización: contratos
     
-    
+# Clase 7
+
+- Pendientes: Inflación subyacente
+- Inflación: definición y cálculo
+    - IPC, IPCX, IPM, deflactor implícito
+    - Indexación
+    - Presión inflacionaria versus inflación
+    - Tipos de inflación
+- Dornbush et ali - 2.6, 7.1, 7.3-7.5
+- Próximos: Dornbush et ali 3-4
