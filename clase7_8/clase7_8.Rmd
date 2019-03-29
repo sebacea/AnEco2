@@ -186,3 +186,47 @@ Inflación: tasa cambio de  los precios
     - Tipos de inflación
 - Dornbush et ali - 2.6, 7.1, 7.3-7.5
 - Próximos: Dornbush et ali 3-4
+
+# Clase 8
+
+- Desempleo
+    - Definición y cálculo
+    - Población activa/inactiva
+    - Tipos desempleo
+    - Creación destrucción
+- Sindicatos
+
+Lecturas: Dornbush et ali 2.6, 7.1,7.3-7.5
+Próximas: Dornbush et ali 3-4
+
+# Desempleo
+
+- Ley de Okun: 1% desempleo => -2% PIB
+- Anatomía
+    - Alta rotación
+    - Persistencia
+- Origen
+    - Titulados / Renuncia / Cesantía / Despido
+- Tipo
+    - Grupo
+    - Natural o pleno empleo: leyes, demografía, preferencias
+    - Cíclico
+- Duración y Costos: [Cea et ali 2009](https://www.researchgate.net/profile/Esteban_Puentes/publication/46435611_Trabajadores_por_cuenta_propia_Quienes_son_De_donde_vienen_Para_donde_van/links/0912f513778328301e000000/Trabajadores-por-cuenta-propia-Quienes-son-De-donde-vienen-Para-donde-van.pdf)
+
+# Crecimiento y Solow
+
+- Producciòn y pago a factores
+    - PIB, PNB
+    - PIB, $PIN=PIB-\text{depreciación}$
+    - PIB como pago a factores
+    - Trabajo como principal factor
+- Componentes de la demanda
+$$Y\equiv C+I+G+XN$$
+    - Identidades importantes
+    $$C+I\equiv Y\equiv C+S$$
+    $$\underbrace{YDisp}_{C+S}-TRedis-TAx\equiv C+I+G+XN$$
+- Notebooks
+    - [Macroeconomics with python](http://www.ncachanosky.com/macroeconomics-with-python.html)
+    - [solowPy](https://github.com/solowPy/solowPy)
+    - [seminario](https://dev-ii-seminar.readthedocs.io/en/latest/notebooks/jupyter_notebooks.html)
+    - [Braddelong](https://nbviewer.jupyter.org/github/braddelong/LSF18E101B/blob/master/Solow_Growth_Model-Initial_Computations.ipynb)
