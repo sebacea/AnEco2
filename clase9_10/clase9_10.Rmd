@@ -196,8 +196,9 @@ Inflación: tasa cambio de  los precios
     - Creación destrucción
 - Sindicatos
 
-Lecturas: Dornbush et ali 2.6, 7.1,7.3-7.5
+Lecturas: Dornbush et ali 2.6, 7.1,7.3-7.5  
 Próximas: Dornbush et ali 3-4
+
 
 # Desempleo
 
@@ -215,7 +216,7 @@ Próximas: Dornbush et ali 3-4
 
 # Clase 9
 
-- Economía de Largo Plazo
+- Economía de Corta/Mediano/Largo Plazo
 - Crecimiento:
     - El crecimiento y la acumulación
     - Modelos de Crecimiento (Solow, Endógeno)
@@ -235,6 +236,48 @@ Próximas: Dornbush et ali 3-4
     - PIB, $PIN=PIB-\text{depreciación}$
     - PIB como pago a factores
     - Trabajo como principal factor
+- Contabilidad de crecimiento 
+$$Y=A\cdot F(K,N)$$
+
+$$\frac{\Delta Y}{Y}=\theta\frac{\Delta K}{K}+(1-\theta)\frac{\Delta N}{N}+\frac{\Delta A}{A}$$
+$$\frac{\Delta y}{y}=\theta\frac{\Delta k}{k}+\frac{\Delta A}{A}$$
+    - Ejemplo con Cobb Douglas  
+    - Participación Capital y Trabajo ([Exposición De Gregorio](http://static.fen.uchile.cl/2019/04/pdf/pensiones.pdf))
+    
+    
+---
+
+- Residuo de Solow $\frac{\Delta A}{A}$
+- Otros factores: Recursos Naturales, Capital Humano
+- Modelo Neoclásico
+    - $Y=F(K,N)=y=F(k,1)=f(k)$
+    - $\Delta k=s\cdot y-(n+d)k$
+    - Estado estacionario $\Delta k=0$
+    
+---
+
+![](estadoEstacionario.png)\
+
+Impacto variaciones: $s,A,n,d$
+
+
+---
+
+## Crecimiento endógeno $Y=aK$
+
+![](crecimientoEndogeno.png)\
+
+
+
+---
+
+
+
+![](trampa.png)\
+
+
+---    
+    
 - Componentes de la demanda
 $$Y\equiv C+I+G+XN$$
     - Identidades importantes
