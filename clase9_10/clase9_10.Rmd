@@ -5,7 +5,7 @@ author:
 - Fabiola Cabrera$^1$
 - Sebastián Cea$^2$
 date: "Marzo 2019"
-output:
+output: 
   beamer_presentation:
     theme: classic
 institute:
@@ -20,200 +20,6 @@ header-includes:
 ---
 
 
-# Pendientes Clase 2
-
--  Variables Reales/Nominales
-
--  Elasticidad
-
-- FPP: F1.2 y Ejemplo de Política Fiscal 
-
-    - I+D potenciada por CORFO, [Noticia](https://www.emol.com/noticias/Economia/2019/03/01/939627/Gasto-en-ID-alcanzo-036-del-PIB-en-2017-y-registro-su-menor-nivel-en-cinco-anos.html)
-
-----
-
-
-# Clase 3
-
-- Sist. Económicos N1.5
-
-    -   importancia de competencia en Mcdos
-
-    -   externalidades
-
-- Rol del Estado N5.13 14 (pendiente, visto en clase 4)
-
-    - Marco legal:mínimos, imptos
-    
-    - Estabilidad macro  Ciclos Económicos N1.15-17
-    
-    - Redistribución
-    
-- Lecturas: Dornbush et ali 2.4-9, 17.6
-
-
-----
-
-- Métricas o factores para medir el tamaño del estado 
-
-    - (Gasto Público/PIB, empleo sector público, leyes, etc.) 
-    - comparando países (China, EEUU)
-    
-- Variables macroeconómicas. 
-    - Crecimiento: [PIB Google](https://www.google.cl/publicdata/explore?ds=d5bncppjof8f9_&met_y=ny_gdp_pcap_cd&hl=es&dl=es#!ctype=l&strail=false&bcs=d&nselm=h&met_y=ny_gnp_mktp_pp_cd&scale_y=lin&ind_y=false&rdim=region&idim=country:CHL&ifdim=region&hl=es&dl=es&ind=false), [PIB WB](https://datos.bancomundial.org/indicador/NY.GDP.PCAP.CD?locations=CL)    
-    - Inflación
-    - Desempleo
-
-
-
-
-----
-
-# Clase 4
-
-- Flujo circular de la renta simple (Producto=ingreso)
-- Sistema cerrado y privado: producto, factores productivos, remuneraciones 
-- Definiciones generales:
-    - Variables macroeconómicas: Crecimiento, Inflación, Desempleo
-    - Sector Público y [Cuenta corriente](https://www.bcentral.cl/balanza-de-pagos-y-posicion-de-inversion-internacional)
-    - Desempeño macroeconómico
-
-----
-
-- Ciclos económicos
-- Relación esperada entre variables en fases de crecimiento y desaceleración 
-    - diferencias entre caída del PIB y desaceleración
-- Introducción a medidas que toman las instituciones:
-    - Políticas fiscales, monetarias y cambiarias
-    - Restrictivas y Expansivas
-
-----
-
-- Términos: [IPCSAE](https://si3.bcentral.cl/estadisticas/Principal1/informes/boletin/listado/BI001_a2_g_Coment.pdf), [IPOM](https://www.bcentral.cl/informe-de-politica-monetaria-ipom-), estímulo monetario, [Gini Banco Mundial](https://datos.bancomundial.org/indicador/SI.POV.GINI?contextual=min&end=2015&locations=CL&start=1987&view=chart), [Gini Google](https://www.google.com/publicdata/explore?ds=d5bncppjof8f9_&hl=es#!ctype=l&strail=false&bcs=d&nselm=h&met_y=si_pov_gini&scale_y=lin&ind_y=false&rdim=region&idim=country:CHL&ifdim=region&hl=es&dl=es&ind=false)
-- Comente: acá en Chile habría una fuerte intervención del Estado debido a que con la tarjeta junaeb podemos comer solo en algunos lugares
-    
-    
-----
-
-# Clase 5
-
-- Producción, Crecimiento y conceptos asociados.
-- Producción y Crecimiento $\neq$ Desarrollo (mediciones)
-    - Desarrollo económico y social, inclusivo y sustentable
-    - Coeficiente de Gini, desarrollo territorial medioambiente
-    - [Índice Desarrollo Humano (IDH)](http://desarrollohumano.cl/idh/indice-desarrollo-humano/): PIB, esperanza de vida, escolaridad 
-    - [indice de competitividad WEF](https://tcdata360.worldbank.org/indicators/gci?country=BRA&indicator=631&countries=CHL&viz=line_chart&years=2007,2017)
-
-- PIB y sus alcances al cálculo (Clase 6)
-
-----
-
-
-# Ciclo Económico N1.15
-
-Crecimto>Produc>Ingresos>empleo>demanda>costos>$\pi$
-
-- Pol. Fiscal 
-
-    - Expansiva: + gastos ó - imptos (pro crecimiento)
-    - Contractiva/Restrictiva: - gasto ó + imptos 
-    - Efectos (pro/contra)-cíclico
-    - Crisis N1.16
-        - Desaceleración
-        - Recesión
-        - Manejo expectativas
-        - Diferencias entre caída del PIB y desaceleración
-    - [Regla fiscal de superávit estructural](http://www.hacienda.cl/preguntas-frecuentes/deberes-y-funciones/en-que-consiste-la-regla-del-balance.html) N1.17
-    - Sistema tributario (esta complejidad de muchos impuestos)
-        - [Engel et ali 1999](https://www.sciencedirect.com/science/article/pii/S0304387899000097)
-        - [Fairfield and Jorrat 2016](https://doi.org/10.1111/roiw.12196)
-
-----
-
-- Pol. Monetaria
-
-    - Expansiva: $\nabla$i>inv>consumo>producción>empleo
-    - Restictiva: i>~(inv>consumo>producción>empleo)
-    - Pol. Cambiaria
-    
-# Clase 6 
-
-- Cálculo PIB
-- Inflación
-- Dornbush et ali - 2.5, 7.2, 7.6-7.8
-- Próximos: Dornbush et ali - 2.6, 7.1, 7.3-7.5
-
-# Alcances Cálculo PIB (Dornbush et ali - 2.4)
-
->PIB: valor de bienes y servicios finales producidos en un momento dado (producción corriente)
-
-- Bienes Finales y Valor Agregado
-
-    - Problema de doble contabilidad
-    - Solución: valor agregado
-
-- Otros problemas de no contabilización
-    - Economía sumergida: comercio callejero
-    - Externalidades negativas como depreciación: medioambiente
-    - Mejoras de calidad
-    
-----   
-    
-# Inflación e índice de precios
-
-Inflación: tasa cambio de  los precios
-
-- PIB e inflación
-    - PIB real: producción física
-    - PIB nominal: valor de la producción
-    - Deflactor PIB: cociente entre nominal y real
-
-- Índice precios consumidor: costo de comprar canasta fija de bienes [link INE](https://www.ine.cl/estad%C3%ADsticas/precios/ipc)
-    - Índice precios productor: costo de una canaste de bienes incluyendo materias primas
-- Medidas diferentes, comportamientos desiguales
-- Manejo expectativas, anticipación correcta y costos de menú
-    - Atraso o adelanto de pagos/compras
-    - Efecto redistributivo de la inflación
-    - Indización: contratos
-    
-# Clase 7
-
-- Pendientes: Inflación subyacente
-- Inflación: definición y cálculo
-    - IPC, IPCX, IPM, deflactor implícito
-    - Indexación
-    - Presión inflacionaria versus inflación
-    - Tipos de inflación
-- Dornbush et ali - 2.6, 7.1, 7.3-7.5
-- Próximos: Dornbush et ali 3-4
-
-# Clase 8
-
-- Desempleo
-    - Definición y cálculo
-    - Población activa/inactiva
-    - Tipos desempleo
-    - Creación destrucción
-- Sindicatos
-
-Lecturas: Dornbush et ali 2.6, 7.1,7.3-7.5  
-Próximas: Dornbush et ali 3-4
-
-
-# Desempleo
-
-- Ley de Okun: 1% desempleo => -2% PIB
-- Anatomía
-    - Alta rotación
-    - Persistencia
-- Origen
-    - Titulados / Renuncia / Cesantía / Despido
-- Tipo
-    - Grupo
-    - Natural o pleno empleo: leyes, demografía, preferencias
-    - Cíclico
-- Duración y Costos: [Cea et ali 2009](https://www.researchgate.net/profile/Esteban_Puentes/publication/46435611_Trabajadores_por_cuenta_propia_Quienes_son_De_donde_vienen_Para_donde_van/links/0912f513778328301e000000/Trabajadores-por-cuenta-propia-Quienes-son-De-donde-vienen-Para-donde-van.pdf)
-
 # Clase 9
 
 - Economía de Corta/Mediano/Largo Plazo
@@ -226,16 +32,27 @@ Próximas: Dornbush et ali 3-4
     - Productividad total de los factores
     - La investigación y desarrollo (I+D)
 
+Lecturas: Dornbush et ali 3, 4, 2.2-2.3  
+Proximas: Dornbush et ali 5.1-5.2
+
 ---
 
 
 ## Crecimiento y Solow
 
 - Producción y pago a factores
-    - PIB, PNB
-    - PIB, $PIN=PIB-\text{depreciación}$
     - PIB como pago a factores
     - Trabajo como principal factor
+    - P. Nacional Bruto $PNB=PIB+$pago factores en el extranjero DG2.5
+    - P. Interno Neto $PIN=PIB-\text{depreciación}$
+
+![](pibpnb.png){height=50%}\
+
+
+
+---
+
+
 - Contabilidad de crecimiento 
 $$Y=A\cdot F(K,N)$$
 
@@ -256,7 +73,7 @@ $$\frac{\Delta y}{y}=\theta\frac{\Delta k}{k}+\frac{\Delta A}{A}$$
     
 ---
 
-![](estadoEstacionario.png)\
+![](estadoEstacionario.png){height=70%}\
 
 Impacto variaciones: $s,A,n,d$
 
@@ -265,24 +82,15 @@ Impacto variaciones: $s,A,n,d$
 
 ## Crecimiento endógeno $Y=aK$
 
-![](crecimientoEndogeno.png)\
+![](crecimientoEndogeno.png){height=70%}\
 
 
 
 ---
 
 
+![](trampa.png){height=70%}\
 
-![](trampa.png)\
-
-
----    
-    
-- Componentes de la demanda
-$$Y\equiv C+I+G+XN$$
-    - Identidades importantes
-    $$C+I\equiv Y\equiv C+S$$
-    $$\underbrace{YDisp}_{C+S}-TRedis-TAx\equiv C+I+G+XN$$
 
 ---
 
@@ -292,6 +100,9 @@ $$Y\equiv C+I+G+XN$$
     - [solowPy](https://github.com/solowPy/solowPy)
     - [seminario](https://dev-ii-seminar.readthedocs.io/en/latest/notebooks/jupyter_notebooks.html)
     - [Braddelong](https://nbviewer.jupyter.org/github/braddelong/LSF18E101B/blob/master/Solow_Growth_Model-Initial_Computations.ipynb)
+    
+    
+---    
     
     
 # Clase 10
@@ -304,3 +115,120 @@ $$Y\equiv C+I+G+XN$$
     - Enfoques extremos: Clásico y Keynesiano
     - Brecha Producto Potencial y Brecha Gasto Producto
 - Curva de Phillips 
+
+Lecturas: Dornbush et ali 5.1-5.2, DG 2-2.1.1  
+Próximas: Dornbush et ali 5.3-5.6
+
+
+---
+
+# Feedback controles
+
+- No responden lo que se les pregunta
+    - Definen conceptos
+    - Relacionan con otras cosas
+    - Muchos datos cuando no se pedían
+- Responden en base a a pautas de pruebas pasadas 
+    (no hay internalización de contenido)
+- Actualidad
+    - variables (confusión IMACEC vs IPC)
+    - no leerse noticias de manera sistemática
+    - dejar respuestas en blanco
+    - no están entendiendo las variables (usar glosario)
+    - En este ramo la actualidad sistemática es fundamental
+- General
+    - Optimizar tiempo (no colocar demás)
+    - Lo que se les pide no lo completan (noticia inflación)
+
+
+---
+
+   
+- Componentes de la demanda - DG2.6
+$$Y\equiv C+I+G+XN$$
+    - Identidades importantes
+    $$C+I\equiv Y\equiv C+S$$
+    $$\underbrace{YDisp}_{C+S}-TRedis-TAx\equiv C+I+G+XN$$
+
+
+---
+
+
+![](composicionPIB.png){height=90%}\
+
+
+---
+
+
+# Modelo OA-DA
+
+- (OA): para cada nivel de precios el monto de producción que las empresas están dispuestas a ofrecer
+    - pendiente positiva porque las empresas están dispuestas a abastecer más producción a mayor precio
+- (DA): nivel de precios y el nivel de producción en el que los mercados de bienes y de dinero están en equilibrio simultáneamente
+    - pendiente negativa 
+        - precios altos reducen el valor de la oferta monetaria
+        - aminora la demanda de productos
+
+
+---
+
+![](OADAeq.png){height=70%}\
+
+---
+
+![](OADA+.png){height=70%}\
+
+
+---
+
+![](OA-DA.png){height=70%}\
+
+---
+
+# Oferta Agregada D5.1
+
+![](OA.png){height=70%}\
+
+---
+
+
+# Oferta Agregada y mecanismo de precios D5.2
+
+![](OAdinamica.png){height=70%}\
+
+
+---
+
+# Demanda Agregada
+
+$$P_{t+1}=P_t[1+\lambda(Y-Y^*)]$$
+
+---
+
+# Pendientes
+
+- Sindicatos (ver slides extra)
+    - importancia técnica económica pero también social
+    - grupos negociadores
+    - sistemas del bienestar
+    - tasas de sindicalización
+    - no demonizar los sindicatos 
+        - aliados para la innovación
+- Flexibilidad laboral 
+    - importancia para la eficiencia
+    - FPP
+    - Precarización laboral
+    - desempleo juvenil, por cuenta propia, de las mediciones, etc. 
+    
+
+---
+
+# Pendientes 2
+
+- Comisión Sarkozy 
+- Comitiva con los reyes y empresarios noruegos
+- Crecimiento, sostenibilidad
+- Mecanismos de depreciación 
+- PIB sectores transables y no transables (competencia internacional)
+- Calidad del crecimiento (Solimano)
+
