@@ -154,7 +154,7 @@ $$Y\equiv C+I+G+XN$$
 ---
 
 
-![](composicionPIB.png){height=90%}\
+![](composicionPIB.png){height=85%}\
 
 
 ---
@@ -170,65 +170,5 @@ $$Y\equiv C+I+G+XN$$
         - aminora la demanda de productos
 
 
----
 
-![](OADAeq.png){height=70%}\
-
----
-
-![](OADA+.png){height=70%}\
-
-
----
-
-![](OA-DA.png){height=70%}\
-
----
-
-# Oferta Agregada D5.1
-
-![](OA.png){height=70%}\
-
----
-
-
-# Oferta Agregada y mecanismo de precios D5.2
-
-![](OAdinamica.png){height=70%}\
-
-
----
-
-# Demanda Agregada
-
-$$P_{t+1}=P_t[1+\lambda(Y-Y^*)]$$
-
----
-
-# Pendientes
-
-- Sindicatos (ver slides extra)
-    - importancia técnica económica pero también social
-    - grupos negociadores
-    - sistemas del bienestar
-    - tasas de sindicalización
-    - no demonizar los sindicatos 
-        - aliados para la innovación
-- Flexibilidad laboral 
-    - importancia para la eficiencia
-    - FPP
-    - Precarización laboral
-    - desempleo juvenil, por cuenta propia, de las mediciones, etc. 
-    
-
----
-
-# Pendientes 2
-
-- Comisión Sarkozy 
-- Comitiva con los reyes y empresarios noruegos
-- Crecimiento, sostenibilidad
-- Mecanismos de depreciación 
-- PIB sectores transables y no transables (competencia internacional)
-- Calidad del crecimiento (Solimano)
 
