@@ -188,26 +188,6 @@ Ejercicio: Mentimeter - Proyeccción de una baja impositiva
 ::::
 
 :::
----
-
-# Consumo y DA
-
-
-::: columns
-
-:::: column
-
-![](ConsumoDA.png){height=70%}\
-
-::::
-
-:::: column
-
-$$C=\overline{C}+\underbrace{c}_\text{Propensión Marginal Consumo}Y,\quad \overline{C}>0,\quad c\in(0,1)$$
-
-::::
-
-:::
 
 
 ---
