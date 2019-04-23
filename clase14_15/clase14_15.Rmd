@@ -1,0 +1,172 @@
+---
+title: "Análisis Eco. 2: 14 y 15"
+always_allow_html: yes
+author:
+- Fabiola Cabrera$^1$
+- Sebastián Cea$^2$
+date: "Abril 2019"
+output: 
+  beamer_presentation:
+    theme: classic
+institute:
+- Biblioteca Congreso Nacional$^1$
+- EII PUCV$^2$
+subtitle: Demanda Agregada
+header-includes:
+- \usepackage{pgf,tikz}
+- \usetikzlibrary{patterns}
+- \usetikzlibrary{arrows}
+- \usepackage{pgfplots}
+---
+
+# Clase 13
+
+- Sistema cerrado y público
+- Multiplicadores
+- Curva de Phillips
+
+Lecturas:  
+- Dornbush et ali 
+  - 6.1: Curva de Phillips  
+  - 9.2-9.6: Consumo y DA, Multiplicador, Gobierno, Presupuesto  
+  - 10.1: Mcdo bienes e IS  
+  - 17.1: Estabilizadores  
+
+# Consumo y DA
+
+Sean $\overline{C}>0,\quad c\in(0,1)$,  
+$$C(Y)=\underbrace{\overline{C}}_\text{Consumo Autónomo}+\underbrace{c}_\text{Propensión Marginal Consumo}Y$$  
+
+--
+
+::: columns
+
+:::: column
+
+![](ConsumoDA.png){height=70%}\
+
+::::
+
+:::: column
+
+
+Sistema Cerrado y Privado (Sin Gobierno)  
+
+- $DA=C(Y)+I$ 
+- $OA=Y$  
+- Equilibrio: $Y=C(Y)+I$
+
+::::
+
+:::
+
+---
+
+# Ahorro
+
+$S\equiv  Y-C(Y)=Y-\overline{C}+cY\Rightarrow S=-\overline{C}+(1-c)Y$  
+
+--  
+
+- Ahorro como inventarios (IU): $S=\underbrace{I_p}_\text{Previsto}+\underbrace{I_{np}}_\text{No Previsto}$  
+- Ahorro equivale a la inversión 
+  - (caso sin Gobierno ni sector externo)
+  
+  
+---
+
+# Sector Público y Externo
+
+- $G$  
+
+$$DA=C+I+\underbrace{G}_{TA=T-TR}$$
+
+$$T=\underbrace{T_0}_\text{autónomo}+\underbrace{t}_\text{tasa impositiva}\cdot Y$$
+
+- Modelo completo
+
+\begin{eqnarray}
+DA&=&C+I+G+XN\\
+&=&C_0+c\cdot(Y-TA+TR)+I+G+NX\\
+&=&\underbrace{\left[C_0-c\cdot(TA-TR)+I+G+NX\right]}_A+c\cdot Y
+\end{eqnarray}
+
+
+
+--- 
+
+
+# Multiplicador
+
+::: columns
+
+:::: column
+
+Tenemos $Y=A+c\cdot Y$, o de una forma equivalente
+
+$$Y_0=\underbrace{\left(\frac{1}{1-c}\right)}_\text{multiplicador}A$$
+
+::::
+
+:::: column 
+
+![](Multiplicador.png){height=70%}\
+
+
+::::
+
+:::
+
+---
+
+# Curva de Phillips
+
+Sea $w_t$ el precio de los salarios en el periodo $t$, tenemos $g_w=\frac{w_{t+1}-w_t}{w_t}$ y la relación llamada curva de Phillips $$g_w=-\underbrace{\epsilon}_\text{Tasa de ajuste}(\underbrace{u}_\text{Desempleo}-\underbrace{u^*}_\text{Desempleo Natural})$$
+
+Si incluímos el rol de las expectativas tenemos el siguiente modelo actualizado
+
+$$g_w-\pi^e=-\underbrace{\epsilon}_\text{Tasa de ajuste}(\underbrace{u}_\text{Desempleo}-\underbrace{u^*}_\text{Desempleo Natural})$$
+
+
+---
+
+![](Phillips.png){height=70%}\
+
+---
+
+
+# Macroeconomics with Python
+
+::: columns
+
+:::: column
+
+- [Modelos con detalle](http://www.ncachanosky.com/macroeconomics-with-python.html)
+
+::::
+
+:::: column
+
+![](MacroPython.png){height=70%}\
+
+
+::::
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
