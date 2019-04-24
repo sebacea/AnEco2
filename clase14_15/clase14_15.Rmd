@@ -7,11 +7,11 @@ author:
 date: "Abril 2019"
 output: 
   beamer_presentation:
-    theme: classic
+    theme: AnnArbor
 institute:
 - Biblioteca Congreso Nacional$^1$
 - EII PUCV$^2$
-subtitle: Demanda Agregada
+subtitle: Curvas de Phillips e IS
 header-includes:
 - \usepackage{pgf,tikz}
 - \usetikzlibrary{patterns}
@@ -19,25 +19,30 @@ header-includes:
 - \usepackage{pgfplots}
 ---
 
-# Clase 13
+# Clase 14
 
-- Sistema cerrado y público
-- Multiplicadores
+- Repaso Multiplicadores
 - Curva de Phillips
+- Construcción IS
+  - Inversión y tasa de interés
+  - Construcción
+  - Análisis Política Fiscal: Expansiva/Restrictiva/Financiada
 
-Lecturas:  
+### Lecturas:  
 - Dornbush et ali 
-  - 6.1: Curva de Phillips  
-  - 9.2-9.6: Consumo y DA, Multiplicador, Gobierno, Presupuesto  
-  - 10.1: Mcdo bienes e IS  
-  - 17.1: Estabilizadores  
+  - Cap 2.7 (tasa de interés), 
+  - 10.1 (curva IS) 
+  - 11.2 (pol. fiscal)
+
 
 # Consumo y DA
 
 Sean $\overline{C}>0,\quad c\in(0,1)$,  
 $$C(Y)=\underbrace{\overline{C}}_\text{Consumo Autónomo}+\underbrace{c}_\text{Propensión Marginal Consumo}Y$$  
 
---
+
+---
+
 
 ::: columns
 
@@ -60,6 +65,7 @@ Sistema Cerrado y Privado (Sin Gobierno)
 
 :::
 
+
 ---
 
 # Ahorro
@@ -77,7 +83,7 @@ $S\equiv  Y-C(Y)=Y-\overline{C}+cY\Rightarrow S=-\overline{C}+(1-c)Y$
 
 # Sector Público y Externo
 
-- $G$  
+- $G$ 
 
 $$DA=C+I+\underbrace{G}_{TA=T-TR}$$
 
@@ -132,33 +138,70 @@ $$g_w-\pi^e=-\underbrace{\epsilon}_\text{Tasa de ajuste}(\underbrace{u}_\text{De
 
 ![](Phillips.png){height=70%}\
 
+# IS-LM: 
+
+- IS pares (producto, tasa de interés) de equilibrio Mº bienes
+  - Investment Save
+- LM pares (producto, tasa de interés) de equilibrio Mº dinero
+  - Liquidity Preference Monetary Supply
+- Interacción entre curvas determinan la demanda agregada
+
+## Tasa de interés (i)
+
+- Repasar Dornbush et ali 2.7
+- Función gasto de inversión: $I=I_0-b\cdot \underbrace{i}_\text{Tasa de interés}$ con $b>0$
+  - Pendiente negativa en el plano $(I,i)$
+  
 ---
-
-
-# Macroeconomics with Python
 
 ::: columns
 
-:::: column
+:::: column 
 
-- [Modelos con detalle](http://www.ncachanosky.com/macroeconomics-with-python.html)
+\begin{eqnarray*}
+DA&=&C+I+G+NX\\
+&=&\left[C_0+c\cdot TR_0+c(1-t)Y\right]\\
+&&+(I_0-b\cdot i)+G_0+NX_0\\
+&=&A_0+c(1-t)\cdot Y-b\cdot i\\
+Y&=&\underbrace{\left(\frac{1}{1-c\cdot(1-t)}\right)}_{\alpha_G}\cdot\left(A_0-b\cdot i\right)\\
+&\Rightarrow&i=\frac{A_0}{b}-\frac{Y}{\alpha_G\cdot b}
+\end{eqnarray*}
+
+
 
 ::::
 
 :::: column
 
-![](MacroPython.png){height=70%}\
-
+![](IS.png){height=65%}\
 
 ::::
 
 :::
 
 
+---
+
+::: columns
+
+:::: column 
+
+![](ISmultiplicador.png){height=65%}\
+
+::::
+
+:::: column
+
+![](ISgasto.png){height=65%}\
+
+::::
+
+:::
 
 
+# Política Fiscal: expulsión
 
-
+![](PolFiscal.png){height=65%}\
 
 
 
