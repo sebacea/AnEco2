@@ -7,7 +7,7 @@ author:
 date: "Abril 2019"
 output: 
   beamer_presentation:
-    theme: AnnArbor
+    theme: classic
 institute:
 - Biblioteca Congreso Nacional$^1$
 - EII PUCV$^2$
