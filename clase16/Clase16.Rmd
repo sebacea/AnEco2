@@ -49,9 +49,9 @@ always_allow_html: yes
 - Dornbush et ali 
   - 10.1 (curva IS) 
   - 10.2 (mcdo dinero y LM)
-  - 10.3
-  - 10.4
-  - 10.5
+  - 10.3 (equilibrio mcdos bienes y dinero)
+  - 10.4 (DA como equilibrio IS-LM)
+  - 10.5 (Tratamiento formal)
   
 # Política Fiscal
 
@@ -133,7 +133,7 @@ L&=&\text{Dda Saldos Reales}\\
 
 :::
 
-# Repaso con slides Fabiola
+# Repaso con preguntas
 
 - Preguntas
   - Aumento multiplicador => Pendiente DA/IS?
