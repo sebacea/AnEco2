@@ -26,9 +26,14 @@ always_allow_html: yes
 - Bancos Comerciales
   - Quién ofrece dinero? Multiplicador Bancario
 - Distintos tipos de tasas 
- - captación
- - colocación 
- - interbancaria
+ - captación / colocación / interbancaria
+- Políticas de estabilización 
+- Política Monetaria: 
+  - Instrumentos (Tasas de encaje, redescuento, etc)
+  - Bancos comerciales
+- Tasas interbancarias
+  - Respecto tasas del Central
+  - Entre los bcos comerciales
  
  Lecturas Dornbush et ali: 10.1-10.5 y 16*
  
@@ -105,24 +110,108 @@ $$CU+\text{reservas}=H$$
 
 Multiplicador Monetario: $\frac{M}{H}$
 
+# Clase 18
+ 
+- Construcción de la curva LM
+- Ecuación en el Mercado monetario: LM Traslados por políticas monetarias
+- Políticas de estabilización 
+- Política Monetaria
+
+
+
+# Construcción LM
+
+![](LM.png){height=70%}\
+
+
+# Variación en Oferta Monetaria
+
+![](AumentoOfertaM.png){height=70%}\
+
+- ¿Figura representa política monetaria expansiva o restrictiva?
+
+
+# Excesos de Oferta/Demanda Monetaria
+
+
+::: columns
+
+:::: column
+
+
+
+![](LMsola.png){height=70%}\
+
+::::
+
+:::: column
+
+- ¿Dónde situar?
+  - EOM
+  - EDM
+- Comparar gráfico anterior
+
+
+$\,$
+
+
+![Macro con Python](MacroPython.png){height=20%}\
+::::
+
+:::
+
+# Equilibrio ISLM
+
+::: columns
+
+:::: column
+
+![](ISLM.png){height=70%}\
+
+::::
+
+:::: column
+
+![](DeltaISLM.png){height=70%}\
+
+::::
+
+:::
+
+- En equilibrio, ¿Cuál es el impacto de los excesos de:?
+  - Oferta/Demanda Monetaria
+  - Oferta/Demanda Agregada
+
+
+# Clase 19
+
+- Análisis de casos:
+  - Exceso de Oferta / Demanda Agregada / Monetaria  (EDA, EOA, EDM, EOM) 
+- Política Fiscal Expansiva:
+ - Efecto Crowding Out
+- Política Monetaria Expansiva:
+  - Mecanismos de Transmisión
+- Casos extremos clásicos y keynesianos
+
+Lecturas Dornbush et ali: 11.1-11.4
+
 
 # Revisión Ejercicio
 
-Con qué fin el Gobierno Chino otorga financiamiento al exterior? Base su respuesta en el modelo de DA
+¿Con qué fin el Gobierno Chino otorga financiamiento al exterior? Base su respuesta en el modelo de DA
 
 - China busca ser la potencia mundial sobre las energías “verdes”, china por su lado tiene la opción de invertir en arg y así poder obtener un retorno sobre este y una mayor demanda agregada.
 - Aumentar M en la demanda para aumentar esta en su totalidad.
 - Para argentina y china hay un cambio en su sector externo, no logro ver cual aumenta y cual disminuye, solo con percepcion diria que china busca qmpliar la capacidad de compra de los paises que demandan sus bienes y por esto trata de impulsarlos
 - El incentivo del Gobierno Chino seria el de aumentar la capacidad de demanda del pais al que le otorgan financiamiento. El financiamiento se ve reflejado en la M del modelo de DA.
-- Aumentar la cantidad de dinero (M) en Argentina, tiene como objetivo desplazar la DA en China, y al aumentar el nivel de precios la producción crecerá
 
 
 ---
 
 
-Con qué fin el Gobierno Chino otorga financiamiento al exterior? Base su respuesta en el modelo de DA
+¿Con qué fin el Gobierno Chino otorga financiamiento al exterior? Base su respuesta en el modelo de DA
 
-
+- Aumentar la cantidad de dinero (M) en Argentina, tiene como objetivo desplazar la DA en China, y al aumentar el nivel de precios la producción crecerá
 - Modo de inversion y ayuda a los paises que le producen las materias primas
 - Por una parte buscaría saldar el déficit comercial que tendría con Argentina al importar más que exportar, destinando inversión para compensar el déficit.
 - El gobierno chino otorga financiamiento debido a que la mano de obra, impuesto son más accesible y le permite obtener un mayor ahorro del que se obtendría si se realizara en el pais.
@@ -131,18 +220,19 @@ Con qué fin el Gobierno Chino otorga financiamiento al exterior? Base su respue
 # Repaso con preguntas
 
 - Aumento multiplicador => Pendiente DA/IS?
-
-
-# Clase 18
- 
-- Construcción de la curva LM
-- Políticas de estabilización 
-- Política Monetaria: 
-  - Instrumentos (Tasas de encaje, redescuento, etc)
-  - Bancos comerciales
-- Tasas interbancarias. Funcionamiento sobre el nivel de tasas del Central y entre los bcos comerciales 
-- Ecuación en el Mercado monetario: LM Traslados por políticas monetarias
-
+- Ejercicio Tarea:
+  - Familias 
+    - consumirían un monto de $3.000$ si no tuvieran ingresos 
+    - por cada $100$ pesos que reciben, destinan $20$ al ahorro
+  - Los desembolsos del gobierno fueron de 
+    - $50.000$ en remuneraciones, 
+    - $20.000$ en gastos corrientes y 
+    - $3.000$ de transferencias a las familias en situación de riesgo social
+    - Los ingresos de dicho gobierno provinieron de impuestos fijos por $2.000, más una tasa impositiva del 10% a los ingresos de las personas.
+  - Empresarios invierten de acuerdo a la siguiente función $80.000-500i$
+  - Se sabe además que la demanda monetaria está representada por: 	$L= 0,5Y-500i$ y los saldos reales ascienden a $274.600$
+  
+  Determine: $C_0, c, G, TR, TA, t, I, L, \frac{M}{P}$
 
 
 
