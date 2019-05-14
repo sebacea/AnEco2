@@ -1,0 +1,154 @@
+---
+title: 'Análisis Eco. 2: 17-18'
+author:
+- Fabiola Cabrera$^1$
+- Sebastián Cea$^2$
+date: "Abril 2019"
+output:
+  beamer_presentation:
+    theme: classic
+institute:
+- $^1$Biblioteca Congreso Nacional
+- $^2$EII PUCV
+header-includes:
+- \usepackage{pgf,tikz}
+- \usetikzlibrary{patterns}
+- \usetikzlibrary{arrows}
+subtitle: Oferta Monetaria y Construcción LM
+always_allow_html: yes
+---
+
+# Revisión Ejercicio
+
+¿Con qué fin el Gobierno Chino otorga financiamiento al exterior? Base su respuesta en el modelo de DA
+
+- China busca ser la potencia mundial sobre las energías “verdes”, china por su lado tiene la opción de invertir en arg y así poder obtener un retorno sobre este y una mayor demanda agregada.
+- Aumentar M en la demanda para aumentar esta en su totalidad.
+- Para argentina y china hay un cambio en su sector externo, no logro ver cual aumenta y cual disminuye, solo con percepcion diria que china busca qmpliar la capacidad de compra de los paises que demandan sus bienes y por esto trata de impulsarlos
+- El incentivo del Gobierno Chino seria el de aumentar la capacidad de demanda del pais al que le otorgan financiamiento. El financiamiento se ve reflejado en la M del modelo de DA.
+
+
+---
+
+
+¿Con qué fin el Gobierno Chino otorga financiamiento al exterior? Base su respuesta en el modelo de DA
+
+- Aumentar la cantidad de dinero (M) en Argentina, tiene como objetivo desplazar la DA en China, y al aumentar el nivel de precios la producción crecerá
+- Modo de inversion y ayuda a los paises que le producen las materias primas
+- Por una parte buscaría saldar el déficit comercial que tendría con Argentina al importar más que exportar, destinando inversión para compensar el déficit.
+- El gobierno chino otorga financiamiento debido a que la mano de obra, impuesto son más accesible y le permite obtener un mayor ahorro del que se obtendría si se realizara en el pais.
+- El fin es aumentar la presencia global de china, y aumenta su demanda agregada, ya que aumenta su M (cantidad de dinero)
+
+# Repaso con preguntas
+
+- Aumento multiplicador => Pendiente DA/IS?
+- Ejercicio Tarea:
+    - Familias 
+      - consumirían un monto de $3.000$ si no tuvieran ingresos 
+      - por cada $100$ pesos que reciben, destinan $20$ al ahorro
+  - Los desembolsos del gobierno fueron de 
+    - $50.000$ en remuneraciones, 
+    - $20.000$ en gastos corrientes y 
+    - $3.000$ de transferencias a las familias en situación de riesgo social
+    - Los ingresos de dicho gobierno provinieron de impuestos fijos por $2.000, más una tasa impositiva del 10% a los ingresos de las personas.
+  - Empresarios invierten de acuerdo a la siguiente función $80.000-500i$
+  - Se sabe además que la demanda monetaria está representada por: 	$L= 0,5Y-500i$ y los saldos reales ascienden a $274.600$
+  
+  Determine: $C_0, c, G, TR, TA, t, I, L, \frac{M}{P}$
+
+# Clase 19
+
+- Análisis de casos:
+  - Exceso de Oferta / Demanda Agregada / Monetaria  (EDA, EOA, EDM, EOM) 
+- Política Monetaria Expansiva:
+  - Mecanismos de Transmisión  
+- Política Fiscal Expansiva:
+ - Efecto Crowding Out
+- Casos extremos clásicos y keynesianos
+
+Lecturas Dornbush et ali: 11.1-11.4  
+Noticias?
+
+# Excesos de Oferta/Demanda Monetaria
+
+![](EODM.png){height=70%}\
+
+# Equilibrio ISLM
+
+![](EqISLM.png){height=70%}\
+
+# Mecanismos de transmisión
+
+::: columns
+
+:::: column
+
+- Compra bonos Banco Central
+- Desplazamient LM (derecha)
+- Disminuye tasa interés
+- Aumenta el ingreso
+  - Debido a más inversión (por interés más bajo)
+
+::::
+
+:::: column
+
+![](ISLMPM.png){height=70%}\
+
+::::
+
+:::
+
+![](TablaTransmision.png){height=70%}\
+
+# Ejercicios
+
+- Pol. Monetaria Expansiva (PME): $$\Delta^+\left(\frac{M}{P}\right)\Rightarrow\Delta^- i\Rightarrow\Delta^+I\Rightarrow\Delta^+DA\Rightarrow\Delta^+Y$$
+  - Overshooting de $i$ 
+- Pol. Fiscal Expansiva (PFE)
+
+
+# Clase 20: Balanza de Pagos
+
+- Cuenta corriente
+  - Componentes (balanza comercial, balanza de servicios, transferencias)
+- Cuenta de capital:
+  - Componentes (corto plazo, largo plazo)
+- Mercado Cambiario:
+  - Divisas (oferta y demanda)
+  - Tipo de cambio (real y nominal)
+- Términos de intercambio (diferencia)
+- Conceptos importantes (depreciación, apreciación, devaluación, revaluación, tipo de cambio competitivo, síndrome holandés, guerra comercial)
+- Variables relevantes que modifican el equilibrio del mercado cambiario (nivel de ingresos, nivel de precios y tasas de interés). $[Xn \rightarrow R;Y;Y^*]$
+
+Lecturas Dornbush et ali: 12.1-12.4
+
+# Diagrama de Fase Equilibrio ISLM 
+
+
+
+# Clase 21: Sistemas cambiarios
+
+- Libre/fijo(unilateral)/flotación sucia
+
+- Factores que determinan la elección 
+  - tamaño o grado de apertura, 
+  - credibilidad d elas instituciones, 
+  - inflación, 
+  - grado de flexibilidad del Mercado laboral, 
+  - nivel de reservas del BC, 
+  - grado de desarrollo financiero
+
+Lecturas Dornbush et ali: 12.1-12.2
+
+# Clase 22: Mundell y Fleming
+
+- inclusión de la balanza de pago
+- Supuestos del modelo
+- Prima por riesgo
+- Políticas fiscales y monetarias en economía pequeña y abierta con tipo de cambio fijo y libre.
+- Trinidad imposible
+
+Lecturas Dornbush et ali: 12.5-12.6, 20*
+
+
