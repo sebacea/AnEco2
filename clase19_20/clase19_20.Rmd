@@ -1,5 +1,5 @@
 ---
-title: 'Análisis Eco. 2: 17-18'
+title: 'Análisis Eco. 2: 19-20'
 author:
 - Fabiola Cabrera$^1$
 - Sebastián Cea$^2$
@@ -14,7 +14,7 @@ header-includes:
 - \usepackage{pgf,tikz}
 - \usetikzlibrary{patterns}
 - \usetikzlibrary{arrows}
-subtitle: Oferta Monetaria y Construcción LM
+subtitle: Equilibrio ISLM
 always_allow_html: yes
 ---
 
@@ -41,7 +41,6 @@ always_allow_html: yes
 
 # Repaso con preguntas
 
-- Aumento multiplicador => Pendiente DA/IS?
 - Ejercicio Tarea:
     - Familias 
       - consumirían un monto de $3.000$ si no tuvieran ingresos 
@@ -55,6 +54,19 @@ always_allow_html: yes
   - Se sabe además que la demanda monetaria está representada por: 	$L= 0,5Y-500i$ y los saldos reales ascienden a $274.600$
   
   Determine: $C_0, c, G, TR, TA, t, I, L, \frac{M}{P}$
+  
+---
+
+$$\left(C_0, c, G, TR, TA, t, I, L, \frac{M}{P}\right)$$
+$$=$$
+$$(3000,0.8,70000,3000,2000,0.1,80000-500i,0.5Y-500i,274600)$$
+
+- Calcule $DA$
+- Derive curva $IS$
+- Derive curva $LM$
+- Encuentre tasa interés equilibrio ($3.076$)
+  
+  
 
 # Clase 19
 
@@ -67,7 +79,7 @@ always_allow_html: yes
 - Casos extremos clásicos y keynesianos
 
 Lecturas Dornbush et ali: 11.1-11.4  
-Noticias?
+
 
 # Excesos de Oferta/Demanda Monetaria
 
@@ -75,7 +87,7 @@ Noticias?
 
 # Equilibrio ISLM
 
-![](EqISLM.png){height=70%}\
+![Fuente: Macroeconomics with Python](EqISLM.png){height=70%}\
 
 # Mecanismos de transmisión
 
@@ -84,7 +96,7 @@ Noticias?
 :::: column
 
 - Compra bonos Banco Central
-- Desplazamient LM (derecha)
+- Desplazamiento LM (derecha)
 - Disminuye tasa interés
 - Aumenta el ingreso
   - Debido a más inversión (por interés más bajo)
@@ -106,6 +118,57 @@ Noticias?
 - Pol. Monetaria Expansiva (PME): $$\Delta^+\left(\frac{M}{P}\right)\Rightarrow\Delta^- i\Rightarrow\Delta^+I\Rightarrow\Delta^+DA\Rightarrow\Delta^+Y$$
   - Overshooting de $i$ 
 - Pol. Fiscal Expansiva (PFE)
+- Aumento multiplicador => Pendiente DA/IS?
+
+# Casos notables (extremos)
+
+::: columns
+
+:::: column
+
+Clásico
+
+- LM vertical
+- $\Delta$IS no afecta producto
+- Pol. Monetaria totalmente efectiva (en Y)
+- Solo el dinero importa
+
+::::
+
+:::: column
+
+Keynesiano
+
+- LM horizontal
+- $\Delta$IS afecta producto
+- Pol. Fiscal más efectiva
+
+::::
+
+:::
+
+# Expulsión (Crowding-out)
+
+::: columns
+
+:::: column
+
+![](Expulsion.png){height=70%}\
+
+
+::::
+
+:::: column
+
+Pol. Fiscal expansiva eleva tasa interés relativo a
+
+- Pendiente LM
+- Pendiente IS
+$$Y=\underbrace{\frac{1}{1-c\cdot(1-t)}}_{\alpha_G}(\overline{A}-b\cdot i)$$
+
+::::
+
+:::
 
 
 # Clase 20: Balanza de Pagos
@@ -123,23 +186,53 @@ Noticias?
 
 Lecturas Dornbush et ali: 12.1-12.4
 
-# Diagrama de Fase Equilibrio ISLM 
+# Conceptos
+
+- Balanza de pagos: registro de las transacciones de los habitantes de un país con  el resto del mundo
+  - Cuenta Corriente: registro comercio de bienes, servicios y pagos de transferencia
+  - Cuenta de Capital: registro de compras y ventas de activos
+    - Privadas
+    - Reserva oficial: banco central
+  
+  $$\text{Cuenta Corriente}+\text{Cuenta de Capital}=0$$
+  
+# Balanza comercial
+
+$$C+I+G=DS(i,Y)=\text{Gasto doméstico}$$
+
+$$\underbrace{X(Y_f,R)}_\text{Exportaciones}-\underbrace{Q(Y,R)}_\text{Importaciones}=\underbrace{XN\left(Y,\underbrace{Y_f}_\text{Ingreso en el extranjero},\overbrace{R}^\text{Tipo cambio real}\right)}_\text{Exportaciones netas}$$
+
+$$\text{Curva IS}: DS(i,Y)+XN(Y,Y_f,R)$$
+
+![](YXN.png){height=70%}\
 
 
+---
+
+
+![](Balanza.png){height=70%}\
+[Fuente: Banco Central de Chile](https://www.bcentral.cl/balanza-de-pagos-y-posicion-de-inversion-internacional)
 
 # Clase 21: Sistemas cambiarios
 
 - Libre/fijo(unilateral)/flotación sucia
 
 - Factores que determinan la elección 
-  - tamaño o grado de apertura, 
-  - credibilidad d elas instituciones, 
+  - tamaño o grado de apertura
+  - credibilidad d elas instituciones
   - inflación, 
-  - grado de flexibilidad del Mercado laboral, 
-  - nivel de reservas del BC, 
+  - grado de flexibilidad del Mercado laboral 
+  - nivel de reservas del BC
   - grado de desarrollo financiero
 
 Lecturas Dornbush et ali: 12.1-12.2
+
+# Conceptos
+
+- Tipos de cambio
+  - Fijo
+  - Flexible
+  - Flotación controlada (sucia)
 
 # Clase 22: Mundell y Fleming
 
