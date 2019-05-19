@@ -1,6 +1,8 @@
 # Análisis Económico 2
 
-Este repositorio contiene notas del curso de Análisis Económico 2 dictado en la [Escuela de Ingeniería Industrial](http://eii.pucv.cl) de la [PUCV](http://www.pucv.cl). Atención que los archivos tienen hipervínculos con información más detallada.
+Este repositorio contiene notas del curso de Análisis Económico 2 dictado en la [Escuela de Ingeniería Industrial](http://eii.pucv.cl) de la [PUCV](http://www.pucv.cl). 
+
+Atención: los archivos tienen hipervínculos con información más detallada.
 
 
 - [Clase 3-4: Sist. Económicos y Rol del Estado](clase3_4/clase3_4.pdf)
