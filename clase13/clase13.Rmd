@@ -2,15 +2,14 @@
 title: "Análisis Eco. 2: 11 y 12"
 always_allow_html: yes
 author:
-- Fabiola Cabrera$^1$
-- Sebastián Cea$^2$
+- Fabiola Cabrera
+- Sebastián Cea
 date: "Marzo 2019"
-output: 
+output:
   beamer_presentation:
     theme: classic
 institute:
-- Biblioteca Congreso Nacional$^1$
-- EII PUCV$^2$
+- EII PUCV
 subtitle: Demanda Agregada
 header-includes:
 - \usepackage{pgf,tikz}

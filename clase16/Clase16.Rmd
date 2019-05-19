@@ -1,15 +1,14 @@
 ---
 title: 'Análisis Eco. 2: 15-16'
 author:
-- Fabiola Cabrera$^1$
-- Sebastián Cea$^2$
+- Fabiola Cabrera
+- Sebastián Cea
 date: "Abril 2019"
 output:
   beamer_presentation:
     theme: classic
 institute:
-- $^1$Biblioteca Congreso Nacional
-- $^2$EII PUCV
+- EII PUCV
 header-includes:
 - \usepackage{pgf,tikz}
 - \usetikzlibrary{patterns}
