@@ -2,15 +2,14 @@
 title: "Análisis Eco. 2: 9 y 10"
 always_allow_html: yes
 author:
-- Fabiola Cabrera$^1$
-- Sebastián Cea$^2$
+- Fabiola Cabrera
+- Sebastián Cea
 date: "Marzo 2019"
-output: 
+output:
   beamer_presentation:
     theme: classic
 institute:
-- Biblioteca Congreso Nacional$^1$
-- EII PUCV$^2$
+- EII PUCV
 subtitle: Crecimiento, Productividad, Oferta/Demanda Agregada
 header-includes:
 - \usepackage{pgf,tikz}
