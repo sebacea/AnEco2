@@ -4,6 +4,7 @@ Este repositorio contiene notas del curso de Análisis Económico 2 dictado en l
 
 Atención: los archivos tienen hipervínculos con información más detallada.
 
+## Diapositivas de Clases
 
 - [Clase 3-4: Sist. Económicos y Rol del Estado](clase3_4/clase3_4.pdf)
 - [Clase 5-6](clase5_6/clase5_6.pdf)
@@ -15,3 +16,7 @@ Atención: los archivos tienen hipervínculos con información más detallada.
 - [Clase 16: LM y Demanda Monetaria](clase16/clase16.pdf)
 - [Clase 17-18: Oferta Monetaria y Construcción LM](clase17_18/clase17_18.pdf)
 - [Clase 19-20: Equilibrio ISLM](clase19_20/clase19_20.pdf)
+
+## Cuadernos de trabajo en Python
+
+- [Modelo IS-LM](EjercicioISLM.ipynb)
