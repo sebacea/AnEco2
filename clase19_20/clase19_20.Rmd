@@ -232,6 +232,10 @@ Lecturas Dornbush et ali: 12.1-12.2
   - Fijo
   - Flexible
   - Flotación controlada (sucia)
+  
+
+
+  
 
 # Clase 22: Mundell y Fleming
 
