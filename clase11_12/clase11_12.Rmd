@@ -118,6 +118,10 @@ $$DA=C+I+G+XN$$
 
 $$OA=DA\Rightarrow \underbrace{(S-I)}_\text{Hogares y Empresa}+\underbrace{(TA-G)}_\text{Sector Público}=\underbrace{XN}_\text{Sector externo}$$
 
+- Eliminando Gobierno desaparecen los terminos $TA$ y $G$ de las ecuaciones: $OA=DA\Leftrightarrow (S-I)=XN$
+  - Si adicionalmente eliminamos el sector externo tendremos:  $OA=DA\Leftrightarrow (S-I)=0\Rightarrow S=I$
+
+
 
 ---
 
