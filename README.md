@@ -19,4 +19,4 @@ Atención: los archivos tienen hipervínculos con información más detallada.
 
 ## Cuadernos de trabajo en Python
 
-- [Modelo IS-LM](EjercicioISLM.ipynb)
+- [Modelo IS-LM](EjercicioISLM.ipynb): el cuaderno se puede modificar en ![](https://colab.research.google.com/assets/colab-badge.svg) o [visualizar una vista previa aquí.](https://nbviewer.jupyter.org/github/sebacea/AnEco2/blob/master/EjercicioISLM.ipynb)
