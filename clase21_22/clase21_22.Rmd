@@ -104,8 +104,14 @@ $$X(R,\underbrace{Y^*}_\text{Producto externo})$$
 $$I(R.Y)$$
   $$DA=C+I(i)+G+(X(R,Y^*)-I(R,Y))$$
 - Tipo de cambio alto: fomenta o restringe exportaciones?
+- Aumento ingreso externo/depreciación: mejora balanza comercial? Aumenta DA?
+- Aumento ingreso nacional: aumenta importaciones? mejora balanza comercial?
 
+---
 
+![](DeltaYstar.png){height=80%}\
+
+---
 
 
 # Ejercicios
@@ -133,4 +139,75 @@ $$Y=\frac{1}{1-c}\bar{A}\underbrace{\rightarrow}_\text{Inclusión impuesto propo
 
 Lecturas Dornbush et ali: 12.5-12.6, 20*
 
+# Balanza de pagos y movimientos de capital
 
+$$BP=NX(Y,Y_f,R)+\underbrace{CF(i-i_f)}_\text{Superávit cuenta capital}$$
+\vfill
+
+- Equilibrio interno: producción en pleno empleo
+
+- Equilibrio externo: balanza de pagos en equilibrio
+
+# Equilibrio interno/externo
+
+![](EqInternoExterno.png){height=80%}\
+
+Menti
+
+# Mundell-Fleming
+
+$$XN(R,Y^*,Y)=X(\underbrace{R}_+,\underbrace{Y^*}_\text{+})-I(\underbrace{R}_-,\underbrace{Y}_+)$$
+
+- Diferenciales tasa interés interna/externa $\Rightarrow$ Flujos capital
+  - Supuesto: Movilidad (libre) capital
+- Tipo cambio fijo: política monetaria dependiente del sector externo
+  - Oferta monetaria dependiente de balanza de pagos (endógena)
+  
+# Expansión monetaria: tipo cambio fijo
+
+![](DeltaLMMF.png){height=80%}\
+
+$$\Delta M\Rightarrow\Delta BP\Rightarrow\Delta R\Rightarrow\Delta M$$
+
+# Expansión Fiscal: cambio IS?
+
+
+![](DeltaGMF.png){height=80%}\
+
+$$\Delta G\Rightarrow\Delta Y,i\Rightarrow\Delta R\Rightarrow\Delta M$$
+
+# Aumento Exportaciones: tipo cambio flexible
+
+![](DeltaXMF.png){height=80%}\
+
+# Tipo cambio flexible
+
+::: columns
+
+:::: column
+
+- $i>i_f\Rightarrow \Delta R\Rightarrow\Delta DA$
+
+- $i<i_f\Rightarrow \Delta R\Rightarrow\Delta DA$
+
+::::
+
+:::: column
+
+![](DeltaiMF.png){height=100%}\
+
+::::
+
+:::
+
+# Política Monetaria: tipo de cambio flexible
+
+![](DeltaMMF.png){height=80%}\
+
+# Varios
+
+- Trinidad imposible: Política Monetaria/Cambiaria, Movilidad de capitales
+- Politica anticomercial: efecto en IS?
+  - Depreciación: exportar desempleo
+- Consejos Prueba
+- Encuesta Taller 3
