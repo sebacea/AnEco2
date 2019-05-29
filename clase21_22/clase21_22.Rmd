@@ -103,6 +103,7 @@ $$X(R,\underbrace{Y^*}_\text{Producto externo})$$
 
 $$I(R.Y)$$
   $$DA=C+I(i)+G+(X(R,Y^*)-I(R,Y))$$
+  
 - Tipo de cambio alto: fomenta o restringe exportaciones?
 - Aumento ingreso externo/depreciación: mejora balanza comercial? Aumenta DA?
 - Aumento ingreso nacional: aumenta importaciones? mejora balanza comercial?
@@ -206,7 +207,7 @@ $$\Delta G\Rightarrow\Delta Y,i\Rightarrow\Delta R\Rightarrow\Delta M$$
 
 # Varios
 
-- Trinidad imposible: Política Monetaria/Cambiaria, Movilidad de capitales
+- Trinidad imposible: Política Monetaria/Cambiaria, Movilidad de capitales (menti)
 - Politica anticomercial: efecto en IS?
   - Depreciación: exportar desempleo
 - Consejos Prueba
