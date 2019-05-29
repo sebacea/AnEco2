@@ -64,16 +64,64 @@ $$\text{Comercio}\Leftrightarrow\text{Relaciones productivas/financieras/migrato
 - Mercados de capitales
 
 # Política comercial y países emergentes
+
+
 ¿Por qué (no) proteger?
 
-- Sustitución de importaciones: industria naciente
+::: columns
+
+:::: column
+
 - Fallas de mercado: 
-  - desarrollo mercado capitales, 
+  - desarrollo mercado capitales 
   - apropiabilidad
   - externalidades: empleo, medioambiente
+
+  
+::::
+
+:::: column 
+
+- Sustitución de importaciones: industria naciente
 - Comercio y crecimiento
 - Rol de fomento del Estado: CORFO
+
+
+::::
+
+:::
+
+![](Beneficios.jpg){height=50%}\
+
+
+
+# Política comercial y países emergentes
+¿Por qué (no) proteger?
+
+::: columns
+
+:::: column
+
+- Fallas de mercado: 
+  - desarrollo mercado capitales 
+  - apropiabilidad
+  - externalidades: empleo, medioambiente
+
   
+::::
+
+:::: column 
+
+- Sustitución de importaciones: industria naciente
+- Comercio y crecimiento
+- Rol de fomento del Estado: CORFO
+
+
+::::
+
+:::
+
+![](perjuicios.jpg){height=50%}\
 
 # Chile
 
