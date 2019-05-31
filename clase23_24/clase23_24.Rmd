@@ -1,5 +1,5 @@
 ---
-title: 'Análisis Eco. 2: 21-22'
+title: 'Análisis Eco. 2: 23-24'
 author:
 - Fabiola Cabrera
 - Sebastián Cea
@@ -13,7 +13,7 @@ header-includes:
 - \usepackage{pgf,tikz}
 - \usetikzlibrary{patterns}
 - \usetikzlibrary{arrows}
-subtitle: Sistemas cambiarios
+subtitle: Globalización
 always_allow_html: yes
 ---
 
@@ -125,10 +125,10 @@ $$\text{Comercio}\Leftrightarrow\text{Relaciones productivas/financieras/migrato
 
 # Chile
 
-- Sustitución de importaciones de América latina para luego pasar
-- la apertura unilateral 70s y 80s
+- Sustitución de importaciones de América latina
+- Apertura unilateral 70s y 80s
 - Acuerdos comerciales y bloques de asociación
-- Diversificación de exportaciones y mercados destino que se tuvo en el tiempo
+- Diversificación de exportaciones y mercados destino
 
 
 # Clase 24: Comercio Internacional
