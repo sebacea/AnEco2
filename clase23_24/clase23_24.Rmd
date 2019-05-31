@@ -19,10 +19,19 @@ always_allow_html: yes
 
 # Pendiente
 
-- Trinidad imposible: Política Monetaria/Cambiaria, Movilidad de capitales (menti)
+- Trinidad imposible: 
+\vfill
+Libertad en Política Monetaria/Cambiaria o Movilidad de capitales
+\vfill
 - Politica anticomercial: efecto en IS?
   - Depreciación: exportar desempleo
 - Encuesta Taller 3
+
+# Conceptos claves
+
+- Prima por riesgo
+
+
 
 # Clase 23: Globalización desde el comercio
 
@@ -125,10 +134,14 @@ $$\text{Comercio}\Leftrightarrow\text{Relaciones productivas/financieras/migrato
 
 # Chile
 
-- Sustitución de importaciones de América latina
-- Apertura unilateral 70s y 80s
-- Acuerdos comerciales y bloques de asociación
-- Diversificación de exportaciones y mercados destino
+- ¿Quiénes han ganado? Minería, Forestales, Vitivinícola
+- Historia
+  - Sustitución de importaciones de América latina
+  - Apertura unilateral 70s y 80s
+  - Acuerdos comerciales y bloques de asociación
+  - Diversificación de exportaciones y mercados destino
+- Nuestro rol en las cadena globales de valor: extractivismo
+- Sustentabilida en la producción: energía y medioambiente
 
 
 # Clase 24: Comercio Internacional
@@ -149,3 +162,25 @@ $$\text{Comercio}\Leftrightarrow\text{Relaciones productivas/financieras/migrato
 
 Lecturas Krugman 3, 4, 5
 
+
+# Ventajas comparativas: Supuestos
+
+- Dotación fija recursos
+- Movilidad de factores entre sectores
+- Tecnología y costos están fijos
+- Pleno empleo
+- Competencia perfecta
+- Sin costos de transporte
+
+
+
+# Ventajas comparativas: Ejemplo Exportaciones FOB USD
+
+|                     |Valparaíso              |Viña del Mar              |
+|---------------------|------------------------|--------------------------|
+|Instrumentos         |66125                   |139664                    |
+|Instrumentos (CO)    |`r round(380000/66125, 2)`        |`r round((5700000/139664),2)`      |
+|Metales              |3.8e05                  |5.7e6                     |
+|Metales (CO)         |`r round((380000/66125)^(-1),2)` |`r round((5700000/139664)^(-1),2)` |
+
+- Viña Metales y Valpo Instrumentos?
