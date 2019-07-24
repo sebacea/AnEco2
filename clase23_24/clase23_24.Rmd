@@ -36,7 +36,7 @@ Libertad en Política Monetaria/Cambiaria o Movilidad de capitales
 # Clase 23: Globalización desde el comercio
 
 - Patrones de comercio
-- Ccomercio internacional
+- Comercio internacional
 - Cadenas Globales de valor (Relación con Geografía Económica)
 - Diversificación
 
@@ -54,7 +54,7 @@ Próximas: 3, 4 y 5
 
 
 
-# Exportaciones chikenas
+# Exportaciones chilenas
 
 ![](ExpChile.png){height=80%}\
 
