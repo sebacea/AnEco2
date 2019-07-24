@@ -17,6 +17,9 @@ Atención: los archivos tienen hipervínculos con información más detallada.
 - [Clase 17-18: Oferta Monetaria y Construcción LM](clase17_18/clase17_18.pdf)
 - [Clase 19-20: Equilibrio ISLM](clase19_20/clase19_20.pdf)
 - [Clase 21-22: Sistemas cambiarios](clase21_22/clase21_22.pdf)
+- [Clase 23-24: Globalización y Comercio](clase23_24/clase23_24.pdf)
+- [Clase 25-26: Comercio internacional](clase25_26/clase25_26.pdf)
+
 
 ## Cuadernos de trabajo en Python
 

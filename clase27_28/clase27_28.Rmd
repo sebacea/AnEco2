@@ -1,0 +1,57 @@
+---
+title: 'Análisis Eco. 2: 27-28'
+author:
+- Fabiola Cabrera
+- Sebastián Cea
+date: "Junio 2019"
+output:
+  beamer_presentation:
+    theme: classic
+institute:
+- EII PUCV
+header-includes:
+- \usepackage{pgf,tikz}
+- \usetikzlibrary{patterns}
+- \usetikzlibrary{arrows}
+subtitle: Comercio Internacional
+always_allow_html: yes
+---
+
+
+# Clase 27: 
+
+Recalendarización:
+
+  - 2 Agosto: Ayudantía 2
+  - 10 Agosto: Prueba 2
+  - 17 Agosto: Exámen
+
+Objetivo: Repaso, HOS, aranceles y barreras al comercio
+
+
+# Barreras al comercio Internacional 
+
+Dumping 
+
+Política Comercial
+
+  - Aranceles
+  
+    - Creacion y desviación de comercio 
+    - Formas de integración
+    
+  - Cuotas a la importación
+  - Subsidios a la exportación
+  - Contenido nacional
+  - Barreras para-arancelarias
+  - Salvaguarda y otras
+ 
+
+# Efectos
+  - Excedentes del consumidos y productor.
+  - Costos sociales asociados (producción ineficiente y disminución del consumo).
+  - TLC, Creación y desviación de comercio.
+  - Second Best
+
+  
+Lecturas: Krugman Cap 8 (Dumping), 6, 8 y 9 (Aranceles)  
